@@ -1,0 +1,6 @@
+2024/03/04-13:46:46.207 4 Reusing MANIFEST /home/dabla/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2024/03/04-13:46:46.209 4 Recovering log #30
+2024/03/04-13:46:46.209 4 Reusing old log /home/dabla/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000030.log 
+2024/03/04-13:49:32.445 4 Level-0 table #34: started
+2024/03/04-13:49:32.455 4 Level-0 table #34: 16386 bytes OK
+2024/03/04-13:49:32.458 4 Delete type=0 #30

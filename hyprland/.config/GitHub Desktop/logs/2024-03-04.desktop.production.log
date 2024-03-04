@@ -1,0 +1,57 @@
+2024-03-04T12:13:41.913Z - info: [main] Received possible protocol arguments: 2
+2024-03-04T12:13:42.286Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-03-04T12:13:42.336Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:13:42.339Z - info: [ui] launching: 3.2.5-linux1 (Linux 6.1.79)
+2024-03-04T12:13:42.339Z - info: [ui] execPath: '/nix/store/bp8qdpjaj39q1r32c5dxz7mrby32lmb4-github-desktop-3.2.5/opt/github-desktop'
+2024-03-04T12:13:42.374Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:13:42.811Z - info: [ui] Opt in reported.
+2024-03-04T12:13:42.979Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:13:53.213Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:13:55.346Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:13:56.579Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:13:56.863Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:28:19.766Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:28:22.045Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:28:53.244Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:28:54.445Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:32:07.688Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:32:09.139Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2024-03-04T12:32:09.140Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-03-04T12:32:09.143Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=b9822d5b-d3f0-4339-bd35-a9cb7ec759b2
+2024-03-04T12:32:09.143Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2024-03-04T12:32:11.546Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-03-04T12:32:15.063Z - info: [main] Received possible protocol arguments: 4
+2024-03-04T12:32:15.063Z - info: [main] Processing protocol url
+2024-03-04T12:32:15.071Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-03-04T12:32:15.079Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-03-04T12:32:15.118Z - info: [main] Received possible protocol arguments: 3
+2024-03-04T12:32:15.121Z - info: [main] Processing protocol url
+2024-03-04T12:32:15.679Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-03-04T12:32:15.930Z - info: [ui] [SignInStore] account resolved
+2024-03-04T12:32:15.931Z - info: [ui] [AppStore] adding account dabla1710 (dabla1710) to store
+2024-03-04T12:32:15.938Z - error: [ui] Error adding account 'dabla1710'
+Error: The name org.freedesktop.secrets was not provided by any .service files
+2024-03-04T12:32:15.946Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2024-03-04T12:32:15.988Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-03-04T12:32:52.738Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-03-04T12:32:52.741Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=7b9f50b3-b507-49ea-87ea-4a33460690c7
+2024-03-04T12:32:57.518Z - info: [main] Received possible protocol arguments: 4
+2024-03-04T12:32:57.518Z - info: [main] Processing protocol url
+2024-03-04T12:32:57.518Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-03-04T12:32:57.575Z - info: [main] Received possible protocol arguments: 3
+2024-03-04T12:32:57.577Z - info: [main] Processing protocol url
+2024-03-04T12:32:58.304Z - info: [ui] [SignInStore] account resolved
+2024-03-04T12:32:58.304Z - info: [ui] [AppStore] adding account dabla1710 (dabla1710) to store
+2024-03-04T12:32:58.309Z - error: [ui] Error adding account 'dabla1710'
+Error: The name org.freedesktop.secrets was not provided by any .service files
+2024-03-04T12:39:51.505Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-03-04T12:39:51.514Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=146c0872-7b44-422b-87c2-a2f5615dde3e
+2024-03-04T12:39:54.675Z - info: [main] Received possible protocol arguments: 4
+2024-03-04T12:39:54.675Z - info: [main] Processing protocol url
+2024-03-04T12:39:54.676Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-03-04T12:39:54.726Z - info: [main] Received possible protocol arguments: 3
+2024-03-04T12:39:54.729Z - info: [main] Processing protocol url
+2024-03-04T12:39:55.462Z - info: [ui] [SignInStore] account resolved
+2024-03-04T12:39:55.462Z - info: [ui] [AppStore] adding account dabla1710 (dabla1710) to store
+2024-03-04T12:39:55.465Z - error: [ui] Error adding account 'dabla1710'
+Error: Error calling StartServiceByName for org.freedesktop.secrets: Failed to execute program org.freedesktop.secrets: No such file or directory

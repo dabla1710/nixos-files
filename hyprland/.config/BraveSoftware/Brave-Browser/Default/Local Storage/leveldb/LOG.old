@@ -1,0 +1,18 @@
+2024/03/04-12:29:50.158 4 Reusing MANIFEST /home/dabla/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2024/03/04-12:29:50.159 4 Recovering log #24
+2024/03/04-12:29:50.160 4 Reusing old log /home/dabla/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000024.log 
+2024/03/04-13:06:36.070 6 Level-0 table #28: started
+2024/03/04-13:06:36.083 6 Level-0 table #28: 182979 bytes OK
+2024/03/04-13:06:36.085 6 Delete type=0 #24
+2024/03/04-13:06:36.086 6 Compacting 4@0 + 1@1 files
+2024/03/04-13:06:36.093 6 Generated table #29@0: 39 keys, 352383 bytes
+2024/03/04-13:06:36.093 6 Compacted 4@0 + 1@1 files => 352383 bytes
+2024/03/04-13:06:36.095 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/04-13:06:36.096 6 Delete type=2 #22
+2024/03/04-13:06:36.096 6 Delete type=2 #25
+2024/03/04-13:06:36.096 6 Delete type=2 #28
+2024/03/04-13:06:36.096 6 Delete type=2 #20
+2024/03/04-13:06:36.096 6 Delete type=2 #18
+2024/03/04-13:23:08.319 4 Level-0 table #31: started
+2024/03/04-13:23:08.334 4 Level-0 table #31: 171491 bytes OK
+2024/03/04-13:23:08.341 4 Delete type=0 #27
