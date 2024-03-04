@@ -199,6 +199,7 @@
 	wl-clipboard
 	xclip
 	neofetch
+  tree
 	# Development Programming Languages
 	python3
   clang
