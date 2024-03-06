@@ -81,8 +81,7 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
 
-  # --- Nvidia Card Setup ---
-  	
+# --- NVIDIA SETUP ---
   # Enable OpenGL
   hardware.opengl = {
     enable = true;
@@ -129,16 +128,20 @@
 
   # Let nvidia decide to switch between gpu and cpu
   hardware.nvidia.prime = {
+    # --- either sync or offloading ---
+    # -> offloading needs script wrapper
+    # Sync
+    sync.enable = true;
     # offloading for application
-    offload = {
-      enable = true;
-      enableOffloadCmd = true;
-    };
+    #offload = {
+    #  enable = true;
+    #  enableOffloadCmd = true;
+    #};
+    
     # Make sure to use the correct Bus ID values for your system! lshw -c display
     intelBusId = "PCI:0:2:0";
     nvidiaBusId = "PCI:1:0:0";
   };
-
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.dabla = {
@@ -148,6 +151,7 @@
     shell = pkgs.fish;
     packages = with pkgs; [
       firefox
+      flatpak      
     #  thunderbird
     ];
   };
@@ -155,51 +159,68 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # ADD SYSTEM PACKAGES HERE TO INSTALL - Dabs
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-  #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
-  	# shells
-	fish
-	neovim
-  	# terminals
-	alacritty
-	kitty
-	# Commandline Utilities
-	lf # inspired by ranger
-	git
-	neovim
-	wl-clipboard
-	xclip
-	neofetch
-	# Development Programming Languages
-	python3
-	gcc
-	gnumake
-	cmake
-	go
-	rustup
-	zig
-  	# Editors
-	vscode
-	# gnome
-	gnome.gnome-tweaks
-	# Office
-	onlyoffice-bin
-	#Browsers
-	brave
-	chromium
-	# GUI Software
-	github-desktop
-	discord
-	gimp
-];
+    #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+    #  wget
 
-programs.fish.enable = true;
+    # shells
+    fish
+    # terminals
+  	alacritty
+  	kitty
+  	# Commandline Utilities
+  	lf # inspired by ranger
+    lshw # listing hardware
+  	git
+    gh
+  	neovim
+  	helix
+  	wl-clipboard
+  	xclip
+  	neofetch
+    tree
+  	# Development Programming Languages
+  	python3
+    clang
+  	gcc
+  	gnumake
+  	cmake
+  	go
+  	rustup
+  	zig
+    # Language Servers
+    zls
+    gopls  
+    # Editors
+  	vscode
+  	# gnome
+  	gnome.gnome-tweaks
+    gnome.gnome-keyring
+  	# Office
+  	onlyoffice-bin
+  	#Browsers
+  	brave
+  	chromium
+  	# GUI Software
+  	github-desktop
+  	discord
+    gimp
+    thunderbird
+    steam
+    protonup-qt
+    # For Hyprland
+    waybar
+    dunst
+    libnotify
+    rofi-wayland
+    wofi
+  ];
 
+  # --- Program Configurations ---
 
+  programs.fish.enable = true;
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
@@ -208,9 +229,28 @@ programs.fish.enable = true;
   #   enableSSHSupport = true;
   # };
 
-  # List services that you want to enable:
-  services.flatpak.enable = true;
+  # Steam
+  programs.steam = {
+    enable = true;
+    remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+    dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+  };
+
+  nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+    "steam"
+    "steam-original"
+    "steam-run"
+  ];
+
+
+
+
+  # --- Services ---
   
+  # List services that you want to enable:
+
+  services.flatpak.enable = true;
+
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 
