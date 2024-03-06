@@ -1,0 +1,590 @@
+2024-03-06T19:26:29.195Z [Modules] Modules initializing
+2024-03-06T19:26:29.195Z [Modules] Distribution: remote
+2024-03-06T19:26:29.196Z [Modules] Host updates: disabled
+2024-03-06T19:26:29.196Z [Modules] Module updates: enabled
+2024-03-06T19:26:29.196Z [Modules] Module install path: /home/dabla/.config/discord/0.0.43/modules
+2024-03-06T19:26:29.196Z [Modules] Module installed file path: /home/dabla/.config/discord/0.0.43/modules/installed.json
+2024-03-06T19:26:29.196Z [Modules] Module download path: /home/dabla/.config/discord/0.0.43/modules/pending
+2024-03-06T19:26:30.563Z [Modules] Bootstrapping...
+2024-03-06T19:26:30.563Z [Modules] Installing discord_desktop_core@0 from /nix/store/l96m69gky9sc72ww4cr9rb8m2wb0nwb9-discord-0.0.43/opt/Discord/resources/bootstrap/discord_desktop_core.zip
+2024-03-06T19:26:30.567Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/nix/store/l96m69gky9sc72ww4cr9rb8m2wb0nwb9-discord-0.0.43/opt/Discord/resources/bootstrap/discord_desktop_core.zip'
+2024-03-06T19:26:30.568Z [Modules] Installing discord_erlpack@0 from /nix/store/l96m69gky9sc72ww4cr9rb8m2wb0nwb9-discord-0.0.43/opt/Discord/resources/bootstrap/discord_erlpack.zip
+2024-03-06T19:26:30.569Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/nix/store/l96m69gky9sc72ww4cr9rb8m2wb0nwb9-discord-0.0.43/opt/Discord/resources/bootstrap/discord_erlpack.zip'
+2024-03-06T19:26:30.569Z [Modules] Installing discord_spellcheck@0 from /nix/store/l96m69gky9sc72ww4cr9rb8m2wb0nwb9-discord-0.0.43/opt/Discord/resources/bootstrap/discord_spellcheck.zip
+2024-03-06T19:26:30.570Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/nix/store/l96m69gky9sc72ww4cr9rb8m2wb0nwb9-discord-0.0.43/opt/Discord/resources/bootstrap/discord_spellcheck.zip'
+2024-03-06T19:26:30.575Z [Modules] Installing discord_utils@0 from /nix/store/l96m69gky9sc72ww4cr9rb8m2wb0nwb9-discord-0.0.43/opt/Discord/resources/bootstrap/discord_utils.zip
+2024-03-06T19:26:30.578Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/nix/store/l96m69gky9sc72ww4cr9rb8m2wb0nwb9-discord-0.0.43/opt/Discord/resources/bootstrap/discord_utils.zip'
+2024-03-06T19:26:30.578Z [Modules] Installing discord_voice@0 from /nix/store/l96m69gky9sc72ww4cr9rb8m2wb0nwb9-discord-0.0.43/opt/Discord/resources/bootstrap/discord_voice.zip
+2024-03-06T19:26:30.580Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/nix/store/l96m69gky9sc72ww4cr9rb8m2wb0nwb9-discord-0.0.43/opt/Discord/resources/bootstrap/discord_voice.zip'
+2024-03-06T19:26:30.580Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2024-03-06T19:26:30.580Z [Modules] Host is up to date.
+2024-03-06T19:26:30.581Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-03-06T19:26:30.790Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-03-06T19:26:30.790Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-03-06T19:26:30.791Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-03-06T19:26:30.791Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-03-06T19:26:30.791Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-03-06T19:26:30.791Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-03-06T19:26:30.791Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip
+2024-03-06T19:26:31.155Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 1%
+2024-03-06T19:26:31.163Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 2%
+2024-03-06T19:26:31.180Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 3%
+2024-03-06T19:26:31.190Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 4%
+2024-03-06T19:26:31.197Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 5%
+2024-03-06T19:26:31.200Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 6%
+2024-03-06T19:26:31.206Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 8%
+2024-03-06T19:26:31.218Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 10%
+2024-03-06T19:26:31.219Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 11%
+2024-03-06T19:26:31.223Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 12%
+2024-03-06T19:26:31.226Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 14%
+2024-03-06T19:26:31.232Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 15%
+2024-03-06T19:26:31.234Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 18%
+2024-03-06T19:26:31.237Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 19%
+2024-03-06T19:26:31.247Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 22%
+2024-03-06T19:26:31.251Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 23%
+2024-03-06T19:26:31.252Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 24%
+2024-03-06T19:26:31.255Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 25%
+2024-03-06T19:26:31.261Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 28%
+2024-03-06T19:26:31.262Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 29%
+2024-03-06T19:26:31.268Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 31%
+2024-03-06T19:26:31.271Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 34%
+2024-03-06T19:26:31.274Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 35%
+2024-03-06T19:26:31.279Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 38%
+2024-03-06T19:26:31.283Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 40%
+2024-03-06T19:26:31.287Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 42%
+2024-03-06T19:26:31.294Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 45%
+2024-03-06T19:26:31.297Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 47%
+2024-03-06T19:26:31.302Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 50%
+2024-03-06T19:26:31.305Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 51%
+2024-03-06T19:26:31.309Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 53%
+2024-03-06T19:26:31.314Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 56%
+2024-03-06T19:26:31.319Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 59%
+2024-03-06T19:26:31.321Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 60%
+2024-03-06T19:26:31.326Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 62%
+2024-03-06T19:26:31.331Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 64%
+2024-03-06T19:26:31.336Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 67%
+2024-03-06T19:26:31.341Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 69%
+2024-03-06T19:26:31.343Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 71%
+2024-03-06T19:26:31.348Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 73%
+2024-03-06T19:26:31.351Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 75%
+2024-03-06T19:26:31.355Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 77%
+2024-03-06T19:26:31.358Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 78%
+2024-03-06T19:26:31.361Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 80%
+2024-03-06T19:26:31.364Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 81%
+2024-03-06T19:26:31.366Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 82%
+2024-03-06T19:26:31.370Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 85%
+2024-03-06T19:26:31.372Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 86%
+2024-03-06T19:26:31.376Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 88%
+2024-03-06T19:26:31.381Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 91%
+2024-03-06T19:26:31.387Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 94%
+2024-03-06T19:26:31.394Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 95%
+2024-03-06T19:26:31.395Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 97%
+2024-03-06T19:26:31.398Z [Modules] Streaming discord_desktop_core@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip: 100%
+2024-03-06T19:26:31.400Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-03-06T19:26:31.400Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip
+2024-03-06T19:26:31.624Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 2%
+2024-03-06T19:26:31.628Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 5%
+2024-03-06T19:26:31.632Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 7%
+2024-03-06T19:26:31.634Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 8%
+2024-03-06T19:26:31.637Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 10%
+2024-03-06T19:26:31.638Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 11%
+2024-03-06T19:26:31.644Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 13%
+2024-03-06T19:26:31.647Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 16%
+2024-03-06T19:26:31.652Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 19%
+2024-03-06T19:26:31.655Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 21%
+2024-03-06T19:26:31.659Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 24%
+2024-03-06T19:26:31.663Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 26%
+2024-03-06T19:26:31.666Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 28%
+2024-03-06T19:26:31.669Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 29%
+2024-03-06T19:26:31.674Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 33%
+2024-03-06T19:26:31.676Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 34%
+2024-03-06T19:26:31.679Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 35%
+2024-03-06T19:26:31.683Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 37%
+2024-03-06T19:26:31.685Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 39%
+2024-03-06T19:26:31.690Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 41%
+2024-03-06T19:26:31.694Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 45%
+2024-03-06T19:26:31.697Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 46%
+2024-03-06T19:26:31.703Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 50%
+2024-03-06T19:26:31.708Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 52%
+2024-03-06T19:26:31.711Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 54%
+2024-03-06T19:26:31.714Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 56%
+2024-03-06T19:26:31.719Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 59%
+2024-03-06T19:26:31.724Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 63%
+2024-03-06T19:26:31.729Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 65%
+2024-03-06T19:26:31.732Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 67%
+2024-03-06T19:26:31.734Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 68%
+2024-03-06T19:26:31.738Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 71%
+2024-03-06T19:26:31.751Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 74%
+2024-03-06T19:26:31.753Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 76%
+2024-03-06T19:26:31.754Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 79%
+2024-03-06T19:26:31.758Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 82%
+2024-03-06T19:26:31.759Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 83%
+2024-03-06T19:26:31.764Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 87%
+2024-03-06T19:26:31.770Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 89%
+2024-03-06T19:26:31.772Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 90%
+2024-03-06T19:26:31.776Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 93%
+2024-03-06T19:26:31.781Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 97%
+2024-03-06T19:26:31.785Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 98%
+2024-03-06T19:26:31.790Z [Modules] Streaming discord_erlpack@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip: 100%
+2024-03-06T19:26:31.793Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-03-06T19:26:31.793Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip
+2024-03-06T19:26:32.141Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 1%
+2024-03-06T19:26:32.149Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 2%
+2024-03-06T19:26:32.157Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 3%
+2024-03-06T19:26:32.165Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 4%
+2024-03-06T19:26:32.178Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 5%
+2024-03-06T19:26:32.186Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 6%
+2024-03-06T19:26:32.196Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 7%
+2024-03-06T19:26:32.203Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 8%
+2024-03-06T19:26:32.210Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 9%
+2024-03-06T19:26:32.220Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 10%
+2024-03-06T19:26:32.226Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 11%
+2024-03-06T19:26:32.239Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 12%
+2024-03-06T19:26:32.246Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 13%
+2024-03-06T19:26:32.257Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 14%
+2024-03-06T19:26:32.262Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 15%
+2024-03-06T19:26:32.272Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 16%
+2024-03-06T19:26:32.282Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 17%
+2024-03-06T19:26:32.291Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 18%
+2024-03-06T19:26:32.300Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 19%
+2024-03-06T19:26:32.308Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 20%
+2024-03-06T19:26:32.316Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 21%
+2024-03-06T19:26:32.327Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 22%
+2024-03-06T19:26:32.338Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 23%
+2024-03-06T19:26:32.346Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 24%
+2024-03-06T19:26:32.352Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 25%
+2024-03-06T19:26:32.360Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 26%
+2024-03-06T19:26:32.372Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 27%
+2024-03-06T19:26:32.381Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 28%
+2024-03-06T19:26:32.392Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 29%
+2024-03-06T19:26:32.399Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 30%
+2024-03-06T19:26:32.408Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 31%
+2024-03-06T19:26:32.415Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 32%
+2024-03-06T19:26:32.426Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 33%
+2024-03-06T19:26:32.437Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 34%
+2024-03-06T19:26:32.443Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 35%
+2024-03-06T19:26:32.454Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 36%
+2024-03-06T19:26:32.463Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 37%
+2024-03-06T19:26:32.471Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 38%
+2024-03-06T19:26:32.478Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 39%
+2024-03-06T19:26:32.490Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 40%
+2024-03-06T19:26:32.495Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 41%
+2024-03-06T19:26:32.507Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 42%
+2024-03-06T19:26:32.512Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 43%
+2024-03-06T19:26:32.522Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 44%
+2024-03-06T19:26:32.532Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 45%
+2024-03-06T19:26:32.542Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 46%
+2024-03-06T19:26:32.548Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 47%
+2024-03-06T19:26:32.560Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 48%
+2024-03-06T19:26:32.568Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 49%
+2024-03-06T19:26:32.574Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 50%
+2024-03-06T19:26:32.589Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 51%
+2024-03-06T19:26:32.592Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 52%
+2024-03-06T19:26:32.602Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 53%
+2024-03-06T19:26:32.613Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 54%
+2024-03-06T19:26:32.620Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 55%
+2024-03-06T19:26:32.630Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 56%
+2024-03-06T19:26:32.639Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 57%
+2024-03-06T19:26:32.650Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 58%
+2024-03-06T19:26:32.655Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 59%
+2024-03-06T19:26:32.666Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 60%
+2024-03-06T19:26:32.672Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 61%
+2024-03-06T19:26:32.682Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 62%
+2024-03-06T19:26:32.695Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 63%
+2024-03-06T19:26:32.701Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 64%
+2024-03-06T19:26:32.710Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 65%
+2024-03-06T19:26:32.720Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 66%
+2024-03-06T19:26:32.729Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 67%
+2024-03-06T19:26:32.737Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 68%
+2024-03-06T19:26:32.745Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 69%
+2024-03-06T19:26:32.753Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 70%
+2024-03-06T19:26:32.766Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 71%
+2024-03-06T19:26:32.771Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 72%
+2024-03-06T19:26:32.779Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 73%
+2024-03-06T19:26:32.793Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 74%
+2024-03-06T19:26:32.797Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 75%
+2024-03-06T19:26:32.810Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 76%
+2024-03-06T19:26:32.817Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 77%
+2024-03-06T19:26:32.825Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 78%
+2024-03-06T19:26:32.842Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 79%
+2024-03-06T19:26:32.846Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 80%
+2024-03-06T19:26:32.868Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 82%
+2024-03-06T19:26:32.875Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 83%
+2024-03-06T19:26:32.882Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 84%
+2024-03-06T19:26:32.908Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 86%
+2024-03-06T19:26:32.913Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 87%
+2024-03-06T19:26:32.922Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 88%
+2024-03-06T19:26:32.932Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 89%
+2024-03-06T19:26:32.939Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 90%
+2024-03-06T19:26:32.947Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 91%
+2024-03-06T19:26:32.957Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 92%
+2024-03-06T19:26:32.967Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 93%
+2024-03-06T19:26:32.978Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 94%
+2024-03-06T19:26:32.983Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 95%
+2024-03-06T19:26:32.992Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 96%
+2024-03-06T19:26:33.003Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 97%
+2024-03-06T19:26:33.014Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 98%
+2024-03-06T19:26:33.023Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 99%
+2024-03-06T19:26:33.032Z [Modules] Streaming discord_spellcheck@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip: 100%
+2024-03-06T19:26:33.036Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-03-06T19:26:33.036Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip
+2024-03-06T19:26:33.449Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 1%
+2024-03-06T19:26:33.451Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 2%
+2024-03-06T19:26:33.453Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 3%
+2024-03-06T19:26:33.458Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 5%
+2024-03-06T19:26:33.463Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 6%
+2024-03-06T19:26:33.466Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 7%
+2024-03-06T19:26:33.471Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 9%
+2024-03-06T19:26:33.473Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 10%
+2024-03-06T19:26:33.477Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 12%
+2024-03-06T19:26:33.480Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 13%
+2024-03-06T19:26:33.484Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 14%
+2024-03-06T19:26:33.487Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 15%
+2024-03-06T19:26:33.490Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 16%
+2024-03-06T19:26:33.494Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 18%
+2024-03-06T19:26:33.499Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 19%
+2024-03-06T19:26:33.502Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 20%
+2024-03-06T19:26:33.504Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 22%
+2024-03-06T19:26:33.506Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 23%
+2024-03-06T19:26:33.511Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 24%
+2024-03-06T19:26:33.512Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 25%
+2024-03-06T19:26:33.517Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 27%
+2024-03-06T19:26:33.521Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 28%
+2024-03-06T19:26:33.527Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 31%
+2024-03-06T19:26:33.532Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 32%
+2024-03-06T19:26:33.534Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 33%
+2024-03-06T19:26:33.540Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 35%
+2024-03-06T19:26:33.546Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 37%
+2024-03-06T19:26:33.552Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 39%
+2024-03-06T19:26:33.553Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 40%
+2024-03-06T19:26:33.558Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 41%
+2024-03-06T19:26:33.560Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 42%
+2024-03-06T19:26:33.562Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 43%
+2024-03-06T19:26:33.568Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 45%
+2024-03-06T19:26:33.574Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 47%
+2024-03-06T19:26:33.577Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 48%
+2024-03-06T19:26:33.581Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 49%
+2024-03-06T19:26:33.585Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 51%
+2024-03-06T19:26:33.590Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 53%
+2024-03-06T19:26:33.592Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 54%
+2024-03-06T19:26:33.595Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 55%
+2024-03-06T19:26:33.598Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 56%
+2024-03-06T19:26:33.604Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 58%
+2024-03-06T19:26:33.606Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 59%
+2024-03-06T19:26:33.611Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 61%
+2024-03-06T19:26:33.615Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 62%
+2024-03-06T19:26:33.617Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 63%
+2024-03-06T19:26:33.622Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 65%
+2024-03-06T19:26:33.628Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 67%
+2024-03-06T19:26:33.630Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 68%
+2024-03-06T19:26:33.634Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 70%
+2024-03-06T19:26:33.639Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 72%
+2024-03-06T19:26:33.645Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 74%
+2024-03-06T19:26:33.651Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 75%
+2024-03-06T19:26:33.655Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 77%
+2024-03-06T19:26:33.658Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 78%
+2024-03-06T19:26:33.662Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 79%
+2024-03-06T19:26:33.665Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 81%
+2024-03-06T19:26:33.670Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 83%
+2024-03-06T19:26:33.673Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 84%
+2024-03-06T19:26:33.678Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 86%
+2024-03-06T19:26:33.682Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 87%
+2024-03-06T19:26:33.686Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 88%
+2024-03-06T19:26:33.691Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 89%
+2024-03-06T19:26:33.693Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 90%
+2024-03-06T19:26:33.695Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 91%
+2024-03-06T19:26:33.699Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 93%
+2024-03-06T19:26:33.703Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 94%
+2024-03-06T19:26:33.705Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 95%
+2024-03-06T19:26:33.707Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 96%
+2024-03-06T19:26:33.712Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 98%
+2024-03-06T19:26:33.717Z [Modules] Streaming discord_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip: 100%
+2024-03-06T19:26:33.718Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-03-06T19:26:33.718Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip
+2024-03-06T19:26:34.189Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 1%
+2024-03-06T19:26:34.209Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 2%
+2024-03-06T19:26:34.232Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 3%
+2024-03-06T19:26:34.252Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 4%
+2024-03-06T19:26:34.281Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 5%
+2024-03-06T19:26:34.301Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 6%
+2024-03-06T19:26:34.326Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 7%
+2024-03-06T19:26:34.351Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 8%
+2024-03-06T19:26:34.373Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 9%
+2024-03-06T19:26:34.394Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 10%
+2024-03-06T19:26:34.420Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 11%
+2024-03-06T19:26:34.439Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 12%
+2024-03-06T19:26:34.466Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 13%
+2024-03-06T19:26:34.492Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 14%
+2024-03-06T19:26:34.510Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 15%
+2024-03-06T19:26:34.534Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 16%
+2024-03-06T19:26:34.556Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 17%
+2024-03-06T19:26:34.579Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 18%
+2024-03-06T19:26:34.604Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 19%
+2024-03-06T19:26:34.628Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 20%
+2024-03-06T19:26:34.650Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 21%
+2024-03-06T19:26:34.675Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 22%
+2024-03-06T19:26:34.696Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 23%
+2024-03-06T19:26:34.721Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 24%
+2024-03-06T19:26:34.748Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 25%
+2024-03-06T19:26:34.768Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 26%
+2024-03-06T19:26:34.791Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 27%
+2024-03-06T19:26:34.816Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 28%
+2024-03-06T19:26:34.839Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 29%
+2024-03-06T19:26:34.865Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 30%
+2024-03-06T19:26:34.884Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 31%
+2024-03-06T19:26:34.906Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 32%
+2024-03-06T19:26:34.943Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 33%
+2024-03-06T19:26:34.962Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 34%
+2024-03-06T19:26:34.987Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 35%
+2024-03-06T19:26:35.012Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 36%
+2024-03-06T19:26:35.032Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 37%
+2024-03-06T19:26:35.058Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 38%
+2024-03-06T19:26:35.081Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 39%
+2024-03-06T19:26:35.103Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 40%
+2024-03-06T19:26:35.127Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 41%
+2024-03-06T19:26:35.149Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 42%
+2024-03-06T19:26:35.176Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 43%
+2024-03-06T19:26:35.197Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 44%
+2024-03-06T19:26:35.220Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 45%
+2024-03-06T19:26:35.247Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 46%
+2024-03-06T19:26:35.266Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 47%
+2024-03-06T19:26:35.290Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 48%
+2024-03-06T19:26:35.314Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 49%
+2024-03-06T19:26:35.337Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 50%
+2024-03-06T19:26:35.361Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 51%
+2024-03-06T19:26:35.384Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 52%
+2024-03-06T19:26:35.407Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 53%
+2024-03-06T19:26:35.432Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 54%
+2024-03-06T19:26:35.452Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 55%
+2024-03-06T19:26:35.478Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 56%
+2024-03-06T19:26:35.501Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 57%
+2024-03-06T19:26:35.523Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 58%
+2024-03-06T19:26:35.546Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 59%
+2024-03-06T19:26:35.569Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 60%
+2024-03-06T19:26:35.594Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 61%
+2024-03-06T19:26:35.621Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 62%
+2024-03-06T19:26:35.640Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 63%
+2024-03-06T19:26:35.663Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 64%
+2024-03-06T19:26:35.690Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 65%
+2024-03-06T19:26:35.711Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 66%
+2024-03-06T19:26:35.732Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 67%
+2024-03-06T19:26:35.758Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 68%
+2024-03-06T19:26:35.782Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 69%
+2024-03-06T19:26:35.802Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 70%
+2024-03-06T19:26:35.824Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 71%
+2024-03-06T19:26:35.852Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 72%
+2024-03-06T19:26:35.877Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 73%
+2024-03-06T19:26:35.896Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 74%
+2024-03-06T19:26:35.917Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 75%
+2024-03-06T19:26:35.950Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 76%
+2024-03-06T19:26:35.974Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 77%
+2024-03-06T19:26:35.997Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 78%
+2024-03-06T19:26:36.019Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 79%
+2024-03-06T19:26:36.046Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 80%
+2024-03-06T19:26:36.067Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 81%
+2024-03-06T19:26:36.094Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 82%
+2024-03-06T19:26:36.114Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 83%
+2024-03-06T19:26:36.137Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 84%
+2024-03-06T19:26:36.160Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 85%
+2024-03-06T19:26:36.182Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 86%
+2024-03-06T19:26:36.209Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 87%
+2024-03-06T19:26:36.229Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 88%
+2024-03-06T19:26:36.252Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 89%
+2024-03-06T19:26:36.275Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 90%
+2024-03-06T19:26:36.300Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 91%
+2024-03-06T19:26:36.327Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 92%
+2024-03-06T19:26:36.349Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 93%
+2024-03-06T19:26:36.368Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 94%
+2024-03-06T19:26:36.397Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 95%
+2024-03-06T19:26:36.419Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 96%
+2024-03-06T19:26:36.443Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 97%
+2024-03-06T19:26:36.462Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 98%
+2024-03-06T19:26:36.487Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 99%
+2024-03-06T19:26:36.508Z [Modules] Streaming discord_voice@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip: 100%
+2024-03-06T19:26:36.511Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2024-03-06T19:26:36.511Z [Modules] Installing updates...
+2024-03-06T19:26:36.511Z [Modules] Installing discord_desktop_core@1 from /home/dabla/.config/discord/0.0.43/modules/pending/discord_desktop_core-1.zip
+2024-03-06T19:26:36.600Z [Modules] Installing discord_erlpack@1 from /home/dabla/.config/discord/0.0.43/modules/pending/discord_erlpack-1.zip
+2024-03-06T19:26:36.667Z [Modules] Installing discord_spellcheck@1 from /home/dabla/.config/discord/0.0.43/modules/pending/discord_spellcheck-1.zip
+2024-03-06T19:26:37.507Z [Modules] Installing discord_utils@1 from /home/dabla/.config/discord/0.0.43/modules/pending/discord_utils-1.zip
+2024-03-06T19:26:37.631Z [Modules] Installing discord_voice@1 from /home/dabla/.config/discord/0.0.43/modules/pending/discord_voice-1.zip
+2024-03-06T19:26:38.293Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2024-03-06T19:26:38.293Z [Modules] Host is up to date.
+2024-03-06T19:26:38.293Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-03-06T19:26:38.297Z [Modules] No module updates available.
+2024-03-06T19:26:39.895Z [Modules] Starting to install discord_krisp...
+2024-03-06T19:26:39.895Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-03-06T19:26:39.896Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip
+2024-03-06T19:26:39.904Z [Modules] Starting to install discord_game_utils...
+2024-03-06T19:26:40.161Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 1%
+2024-03-06T19:26:40.182Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 2%
+2024-03-06T19:26:40.202Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 3%
+2024-03-06T19:26:40.232Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 4%
+2024-03-06T19:26:40.244Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 5%
+2024-03-06T19:26:40.261Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 6%
+2024-03-06T19:26:40.299Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 7%
+2024-03-06T19:26:40.304Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 8%
+2024-03-06T19:26:40.325Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 9%
+2024-03-06T19:26:40.346Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 10%
+2024-03-06T19:26:40.383Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 11%
+2024-03-06T19:26:40.440Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 12%
+2024-03-06T19:26:40.649Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 13%
+2024-03-06T19:26:40.655Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 14%
+2024-03-06T19:26:40.656Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 15%
+2024-03-06T19:26:40.656Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 16%
+2024-03-06T19:26:40.657Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 17%
+2024-03-06T19:26:40.658Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 18%
+2024-03-06T19:26:40.659Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 19%
+2024-03-06T19:26:40.687Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 20%
+2024-03-06T19:26:40.706Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 21%
+2024-03-06T19:26:40.729Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 22%
+2024-03-06T19:26:40.749Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 23%
+2024-03-06T19:26:40.767Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 24%
+2024-03-06T19:26:40.785Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 25%
+2024-03-06T19:26:40.805Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 26%
+2024-03-06T19:26:40.829Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 27%
+2024-03-06T19:26:40.850Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 28%
+2024-03-06T19:26:40.867Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 29%
+2024-03-06T19:26:40.887Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 30%
+2024-03-06T19:26:40.901Z [Modules] Host is up to date.
+2024-03-06T19:26:40.901Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-03-06T19:26:40.904Z [Modules] No module updates available.
+2024-03-06T19:26:40.906Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 31%
+2024-03-06T19:26:40.926Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 32%
+2024-03-06T19:26:40.953Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 33%
+2024-03-06T19:26:41.003Z [Modules] Starting to install discord_rpc...
+2024-03-06T19:26:41.047Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 34%
+2024-03-06T19:26:41.063Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 35%
+2024-03-06T19:26:41.069Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 36%
+2024-03-06T19:26:41.070Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 38%
+2024-03-06T19:26:41.076Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 39%
+2024-03-06T19:26:41.095Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 40%
+2024-03-06T19:26:41.115Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 41%
+2024-03-06T19:26:41.144Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 42%
+2024-03-06T19:26:41.167Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 43%
+2024-03-06T19:26:41.260Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 44%
+2024-03-06T19:26:41.277Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 45%
+2024-03-06T19:26:41.300Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 46%
+2024-03-06T19:26:41.301Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 47%
+2024-03-06T19:26:41.302Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 48%
+2024-03-06T19:26:41.511Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 49%
+2024-03-06T19:26:41.533Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 50%
+2024-03-06T19:26:41.554Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 51%
+2024-03-06T19:26:41.577Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 52%
+2024-03-06T19:26:41.593Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 53%
+2024-03-06T19:26:41.615Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 54%
+2024-03-06T19:26:41.636Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 55%
+2024-03-06T19:26:41.651Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 56%
+2024-03-06T19:26:41.671Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 57%
+2024-03-06T19:26:41.695Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 58%
+2024-03-06T19:26:41.713Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 59%
+2024-03-06T19:26:41.732Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 60%
+2024-03-06T19:26:41.754Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 61%
+2024-03-06T19:26:41.772Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 62%
+2024-03-06T19:26:41.791Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 63%
+2024-03-06T19:26:41.816Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 64%
+2024-03-06T19:26:41.836Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 65%
+2024-03-06T19:26:41.857Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 66%
+2024-03-06T19:26:41.875Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 67%
+2024-03-06T19:26:41.893Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 68%
+2024-03-06T19:26:41.914Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 69%
+2024-03-06T19:26:41.937Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 70%
+2024-03-06T19:26:41.962Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 71%
+2024-03-06T19:26:42.054Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 72%
+2024-03-06T19:26:42.070Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 73%
+2024-03-06T19:26:42.080Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 74%
+2024-03-06T19:26:42.081Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 75%
+2024-03-06T19:26:42.082Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 76%
+2024-03-06T19:26:42.088Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 77%
+2024-03-06T19:26:42.126Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 78%
+2024-03-06T19:26:42.149Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 79%
+2024-03-06T19:26:42.166Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 80%
+2024-03-06T19:26:42.189Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 81%
+2024-03-06T19:26:42.205Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 82%
+2024-03-06T19:26:42.228Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 83%
+2024-03-06T19:26:42.246Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 84%
+2024-03-06T19:26:42.266Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 85%
+2024-03-06T19:26:42.287Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 86%
+2024-03-06T19:26:42.306Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 87%
+2024-03-06T19:26:42.326Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 88%
+2024-03-06T19:26:42.345Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 89%
+2024-03-06T19:26:42.365Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 90%
+2024-03-06T19:26:42.388Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 91%
+2024-03-06T19:26:42.404Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 92%
+2024-03-06T19:26:42.427Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 93%
+2024-03-06T19:26:42.447Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 94%
+2024-03-06T19:26:42.468Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 95%
+2024-03-06T19:26:42.487Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 96%
+2024-03-06T19:26:42.508Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 97%
+2024-03-06T19:26:42.526Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 98%
+2024-03-06T19:26:42.548Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 99%
+2024-03-06T19:26:42.574Z [Modules] Streaming discord_krisp@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip: 100%
+2024-03-06T19:26:42.576Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-03-06T19:26:42.576Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip
+2024-03-06T19:26:42.576Z [Modules] Installing discord_krisp@1 from /home/dabla/.config/discord/0.0.43/modules/pending/discord_krisp-1.zip
+2024-03-06T19:26:42.812Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 1%
+2024-03-06T19:26:42.816Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 3%
+2024-03-06T19:26:42.820Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 5%
+2024-03-06T19:26:42.824Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 7%
+2024-03-06T19:26:42.829Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 9%
+2024-03-06T19:26:42.831Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 10%
+2024-03-06T19:26:42.834Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 11%
+2024-03-06T19:26:42.846Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 15%
+2024-03-06T19:26:42.846Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 16%
+2024-03-06T19:26:42.850Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 18%
+2024-03-06T19:26:42.853Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 20%
+2024-03-06T19:26:42.857Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 21%
+2024-03-06T19:26:42.859Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 22%
+2024-03-06T19:26:42.862Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 23%
+2024-03-06T19:26:42.864Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 24%
+2024-03-06T19:26:42.867Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 27%
+2024-03-06T19:26:42.874Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 29%
+2024-03-06T19:26:42.879Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 31%
+2024-03-06T19:26:42.881Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 33%
+2024-03-06T19:26:42.885Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 34%
+2024-03-06T19:26:42.890Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 37%
+2024-03-06T19:26:42.896Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 40%
+2024-03-06T19:26:42.899Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 41%
+2024-03-06T19:26:42.902Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 42%
+2024-03-06T19:26:42.907Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 44%
+2024-03-06T19:26:42.910Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 45%
+2024-03-06T19:26:42.914Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 48%
+2024-03-06T19:26:42.920Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 51%
+2024-03-06T19:26:42.924Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 52%
+2024-03-06T19:26:42.928Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 54%
+2024-03-06T19:26:42.931Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 55%
+2024-03-06T19:26:42.936Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 57%
+2024-03-06T19:26:42.940Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 60%
+2024-03-06T19:26:42.949Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 61%
+2024-03-06T19:26:42.953Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 62%
+2024-03-06T19:26:42.958Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 63%
+2024-03-06T19:26:42.961Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 65%
+2024-03-06T19:26:42.970Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 68%
+2024-03-06T19:26:42.971Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 69%
+2024-03-06T19:26:42.976Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 72%
+2024-03-06T19:26:42.979Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 73%
+2024-03-06T19:26:42.983Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 75%
+2024-03-06T19:26:42.985Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 76%
+2024-03-06T19:26:42.988Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 77%
+2024-03-06T19:26:42.991Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 78%
+2024-03-06T19:26:42.995Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 80%
+2024-03-06T19:26:42.998Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 81%
+2024-03-06T19:26:43.000Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 82%
+2024-03-06T19:26:43.001Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 83%
+2024-03-06T19:26:43.004Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 84%
+2024-03-06T19:26:43.007Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 85%
+2024-03-06T19:26:43.011Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 87%
+2024-03-06T19:26:43.015Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 89%
+2024-03-06T19:26:43.018Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 91%
+2024-03-06T19:26:43.024Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 92%
+2024-03-06T19:26:43.029Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 95%
+2024-03-06T19:26:43.033Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 96%
+2024-03-06T19:26:43.047Z [Modules] Streaming discord_game_utils@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip: 100%
+2024-03-06T19:26:43.057Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-03-06T19:26:43.057Z [Modules] Streaming discord_rpc@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_rpc-1.zip
+2024-03-06T19:26:43.137Z [Modules] Installing discord_game_utils@1 from /home/dabla/.config/discord/0.0.43/modules/pending/discord_game_utils-1.zip
+2024-03-06T19:26:43.218Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2024-03-06T19:26:43.272Z [Modules] Streaming discord_rpc@1 to /home/dabla/.config/discord/0.0.43/modules/pending/discord_rpc-1.zip: 100%
+2024-03-06T19:26:43.273Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-03-06T19:26:43.273Z [Modules] Installing discord_rpc@1 from /home/dabla/.config/discord/0.0.43/modules/pending/discord_rpc-1.zip
+2024-03-06T19:26:43.296Z [Modules] Finished module installations. [success: 1] [failure: 0]

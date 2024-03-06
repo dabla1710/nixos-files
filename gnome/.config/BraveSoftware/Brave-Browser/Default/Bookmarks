@@ -1,0 +1,1386 @@
+{
+   "checksum": "19d0d514066a9e41ef5d08a1705287bd",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13340714471000000",
+               "date_last_used": "0",
+               "guid": "d31d407f-eace-479c-9ed0-4208f4ff66e9",
+               "id": "6",
+               "name": "moodle-wrm an der FernUni",
+               "type": "url",
+               "url": "https://moodle-wrm.fernuni-hagen.de/"
+            }, {
+               "date_added": "13337978245000000",
+               "date_last_used": "0",
+               "guid": "e4604585-9496-4ead-a244-d7b630a8bd45",
+               "id": "7",
+               "name": "Virtueller Studienplatz - Willkommen!",
+               "type": "url",
+               "url": "https://vu.fernuni-hagen.de/lvuweb/lvu"
+            }, {
+               "date_added": "13339062582000000",
+               "date_last_used": "0",
+               "guid": "5b8aefd2-9b51-471e-bf6d-10b001ed1279",
+               "id": "8",
+               "name": "Moodle Login",
+               "type": "url",
+               "url": "https://login.fernuni-hagen.de/idp/profile/SAML2/Redirect/SSO?execution=e1s1"
+            }, {
+               "date_added": "13337980365000000",
+               "date_last_used": "0",
+               "guid": "c4a26158-5e87-4c70-81a1-f2c1e4e01535",
+               "id": "9",
+               "name": "Studydrive",
+               "type": "url",
+               "url": "https://www.studydrive.net/"
+            }, {
+               "date_added": "13341349744000000",
+               "date_last_used": "0",
+               "guid": "fc72aad5-fbe4-4644-925d-055c76118c4c",
+               "id": "10",
+               "name": "Structs - The Rust Programming Language",
+               "type": "url",
+               "url": "https://web.mit.edu/rust-lang_v1.25/arch/amd64_ubuntu1404/share/doc/rust/html/book/first-edition/structs.html"
+            }, {
+               "date_added": "13349185591000000",
+               "date_last_used": "0",
+               "guid": "8377c892-aeed-4dde-8584-65bf2f8fea3d",
+               "id": "11",
+               "name": "Supported Functions · KaTeX",
+               "type": "url",
+               "url": "https://katex.org/docs/supported.html"
+            }, {
+               "date_added": "13349711302000000",
+               "date_last_used": "0",
+               "guid": "4f669018-d01a-4f4d-8dec-00a3fd4cca23",
+               "id": "12",
+               "name": "Documentation - The Zig Programming Language",
+               "type": "url",
+               "url": "https://ziglang.org/documentation/master/#switch"
+            } ],
+            "date_added": "13354226189400654",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "72f8ffb5-3703-46c7-90b4-466264368e3a",
+            "id": "5",
+            "name": "Uni Hagen",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13314235923000000",
+               "date_last_used": "0",
+               "guid": "dd0782e1-8031-43f2-b86a-164f0d5d2f8a",
+               "id": "14",
+               "name": "anime-planet",
+               "type": "url",
+               "url": "https://www.anime-planet.com/"
+            }, {
+               "date_added": "13314747499000000",
+               "date_last_used": "0",
+               "guid": "5aa7f49f-6b34-47af-aa8b-79c619706b8d",
+               "id": "15",
+               "name": "CSS3 Tutorial",
+               "type": "url",
+               "url": "https://www.tutorialbrain.com/css/css_home/"
+            }, {
+               "date_added": "13316457647000000",
+               "date_last_used": "0",
+               "guid": "97ab71cb-4f5c-4c88-a9dc-44e33df617a5",
+               "id": "16",
+               "name": "typingclub",
+               "type": "url",
+               "url": "https://www.typingclub.com/sportal/"
+            }, {
+               "date_added": "13316947258000000",
+               "date_last_used": "0",
+               "guid": "6e2327f1-9bfa-4f22-8137-6887f3a78e6e",
+               "id": "17",
+               "name": "Hellsing Ultimate",
+               "type": "url",
+               "url": "https://9anime.vc/watch/hellsing-ultimate-133?ep=3861"
+            }, {
+               "date_added": "13316950698000000",
+               "date_last_used": "0",
+               "guid": "9c80003f-6393-4216-be46-c5fe5df0afdd",
+               "id": "18",
+               "name": "Hyprland on Fedora",
+               "type": "url",
+               "url": "https://github.com/hyprwm/Hyprland/discussions/284"
+            }, {
+               "date_added": "13317304973000000",
+               "date_last_used": "0",
+               "guid": "0200d63d-d7aa-44c2-8206-a4a967e60713",
+               "id": "19",
+               "name": "WIFI problems window dualboot",
+               "type": "url",
+               "url": "https://www.reddit.com/r/archlinux/comments/n3jf1p/reminder_to_disable_fast_startup_when_dualbooting/"
+            }, {
+               "date_added": "13317312715000000",
+               "date_last_used": "0",
+               "guid": "dd926cc7-8885-4816-a558-b5fc9684720f",
+               "id": "20",
+               "name": "vaxry.net",
+               "type": "url",
+               "url": "https://vaxry.net/"
+            }, {
+               "date_added": "13340179167000000",
+               "date_last_used": "0",
+               "guid": "cb53b3c0-b00a-4e61-bc5e-edcc68578056",
+               "id": "21",
+               "name": "Getting Started | AstroNvim",
+               "type": "url",
+               "url": "https://astronvim.com/"
+            } ],
+            "date_added": "13354226189401195",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "bb5f6abb-06b6-4742-9b68-baef80ef8139",
+            "id": "13",
+            "name": "MyStuff",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13346270520000000",
+               "date_last_used": "0",
+               "guid": "c6d32046-cbc2-4d0d-9888-95ac05f401a0",
+               "id": "23",
+               "name": "ebiten package - github.com/hajimehoshi/ebiten/v2 - Go Packages",
+               "type": "url",
+               "url": "https://pkg.go.dev/github.com/hajimehoshi/ebiten/v2#section-documentation"
+            }, {
+               "date_added": "13346270665000000",
+               "date_last_used": "0",
+               "guid": "8b114c0e-39c6-434c-9493-1e793a59d3f4",
+               "id": "24",
+               "name": "Top 10 Pixel Art & Sprite Design Tools Every Pro Developer Should Know About | by Christian Feldbacher | Medium",
+               "type": "url",
+               "url": "https://medium.com/@themobiledev/top-10-pixel-art-sprite-design-tools-every-pro-developer-should-know-about-708e88237bb"
+            }, {
+               "date_added": "13346270681000000",
+               "date_last_used": "0",
+               "guid": "01c0eb9e-2b56-4eaa-a19a-001c9c661d85",
+               "id": "25",
+               "name": "Piskel - Free online sprite editor",
+               "type": "url",
+               "url": "https://www.piskelapp.com/"
+            }, {
+               "date_added": "13346270991000000",
+               "date_last_used": "0",
+               "guid": "f5bd3179-e3fb-4fe9-afed-f246c0d25065",
+               "id": "26",
+               "name": "Free 2D Game Assets - CraftPix.net",
+               "type": "url",
+               "url": "https://craftpix.net/freebies/"
+            }, {
+               "date_added": "13346271759000000",
+               "date_last_used": "0",
+               "guid": "6eaa1fc6-40e4-4d6d-a7ea-21b8f84ccead",
+               "id": "27",
+               "name": "Cheat Sheet - Ebitengine",
+               "type": "url",
+               "url": "https://ebitengine.org/en/documents/cheatsheet.html"
+            }, {
+               "date_added": "13346272550000000",
+               "date_last_used": "0",
+               "guid": "41d3a321-c567-46d8-bcc5-373c7d44bceb",
+               "id": "28",
+               "name": "Install - Ebitengine",
+               "type": "url",
+               "url": "https://ebitengine.org/en/documents/install.html#Running_a_program_with_Ebitengine"
+            }, {
+               "date_added": "13346715487000000",
+               "date_last_used": "0",
+               "guid": "e52d6c4a-32b7-4581-83d0-89494ce29337",
+               "id": "29",
+               "name": "Introduction - The Specs Book",
+               "type": "url",
+               "url": "https://specs.amethyst.rs/docs/tutorials/"
+            }, {
+               "date_added": "13346715502000000",
+               "date_last_used": "0",
+               "guid": "69208352-f9c1-448a-b5e5-a6bf0e67cb6d",
+               "id": "30",
+               "name": "Pong Tutorial - Amethyst Documentation",
+               "type": "url",
+               "url": "https://book.amethyst.rs/book/stable/pong-tutorial"
+            }, {
+               "date_added": "13346878182000000",
+               "date_last_used": "0",
+               "guid": "033b2e60-6b45-4ca3-aaf0-929233c24291",
+               "id": "31",
+               "name": "Bevy Book: Setup",
+               "type": "url",
+               "url": "https://bevyengine.org/learn/book/getting-started/setup/"
+            }, {
+               "date_added": "13346883792000000",
+               "date_last_used": "0",
+               "guid": "9a3a42f2-2c87-4121-a561-481b28c45cc2",
+               "id": "32",
+               "name": "Bevy Book: Next Steps",
+               "type": "url",
+               "url": "https://bevyengine.org/learn/book/next-steps/"
+            }, {
+               "date_added": "13346886069000000",
+               "date_last_used": "0",
+               "guid": "519a5cb8-53e0-40fd-9b1a-b9f9cab949f3",
+               "id": "33",
+               "name": "bevy examples",
+               "type": "url",
+               "url": "https://github.com/bevyengine/bevy/tree/latest/examples#examples"
+            }, {
+               "date_added": "13347388748000000",
+               "date_last_used": "0",
+               "guid": "df30ed91-6d0f-444e-ba1d-0703fbe6334d",
+               "id": "34",
+               "name": "Home · Kenney",
+               "type": "url",
+               "url": "https://kenney.nl/"
+            }, {
+               "date_added": "13348923850000000",
+               "date_last_used": "0",
+               "guid": "229d5be0-2718-4173-a528-bc8cc7c1a1ff",
+               "id": "35",
+               "name": "Aseprite - Animated sprite editor & pixel art tool",
+               "type": "url",
+               "url": "https://www.aseprite.org/"
+            } ],
+            "date_added": "13354226189401473",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "d2607e2e-d194-4a98-a7b3-2054f47c270b",
+            "id": "22",
+            "name": "Erstes Game",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13343213474000000",
+               "date_last_used": "0",
+               "guid": "e18d8568-b7ae-4da0-90b0-dd4f1c8d0b81",
+               "id": "37",
+               "name": "Go by Example",
+               "type": "url",
+               "url": "https://gobyexample.com/"
+            }, {
+               "date_added": "13346260818000000",
+               "date_last_used": "0",
+               "guid": "67a23e19-79df-4aa1-98dd-941fcb4c2637",
+               "id": "38",
+               "name": "Ebitengine - A dead simple 2D game engine for Go",
+               "type": "url",
+               "url": "https://ebitengine.org/"
+            }, {
+               "date_added": "13347460198000000",
+               "date_last_used": "0",
+               "guid": "156a4fe0-37f8-4f56-a159-900cdd87f196",
+               "id": "39",
+               "name": "A Tour of Go",
+               "type": "url",
+               "url": "https://go.dev/tour/list"
+            }, {
+               "date_added": "13348847072000000",
+               "date_last_used": "0",
+               "guid": "4095f3fb-6a16-41c7-9a7d-850de28c15a2",
+               "id": "40",
+               "name": "gen2brain/raylib-go",
+               "type": "url",
+               "url": "https://github.com/gen2brain/raylib-go"
+            } ],
+            "date_added": "13354226189401779",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "686d76ba-7e17-484a-b5ae-4d681fe84349",
+            "id": "36",
+            "name": "Go",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13347490355000000",
+               "date_last_used": "0",
+               "guid": "873b1016-19ec-42dc-928e-272e36b45c23",
+               "id": "42",
+               "name": "VSC C++ Setup",
+               "type": "url",
+               "url": "https://code.visualstudio.com/docs/languages/cpp"
+            }, {
+               "date_added": "13347496751000000",
+               "date_last_used": "0",
+               "guid": "9adaff3b-10ab-4401-8b30-72dae5ef469b",
+               "id": "43",
+               "name": "learncpp.com",
+               "type": "url",
+               "url": "https://www.learncpp.com/"
+            } ],
+            "date_added": "13354226189401943",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "22693a75-42c8-4012-8c77-70b1a41ab97d",
+            "id": "41",
+            "name": "cpp",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13347404661000000",
+               "date_last_used": "0",
+               "guid": "209e72c7-cfe3-479c-a51d-7dbaa2c96771",
+               "id": "45",
+               "name": "ziglearn.org",
+               "type": "url",
+               "url": "https://ziglearn.org/"
+            }, {
+               "date_added": "13347404623000000",
+               "date_last_used": "0",
+               "guid": "4079c714-df04-429c-b8b8-1faab2bb0df3",
+               "id": "46",
+               "name": "Not-Nik/raylib-zig",
+               "type": "url",
+               "url": "https://github.com/Not-Nik/raylib-zig"
+            }, {
+               "date_added": "13347407341000000",
+               "date_last_used": "0",
+               "guid": "b702aa65-48ac-4ca8-bf2e-363251a71a55",
+               "id": "47",
+               "name": "MasterQ32/SDL.zig",
+               "type": "url",
+               "url": "https://github.com/MasterQ32/SDL.zig"
+            }, {
+               "date_added": "13347460157000000",
+               "date_last_used": "0",
+               "guid": "d3dab438-474a-486e-bc5f-8e72447e2206",
+               "id": "48",
+               "name": "Zig in 30 minutes · GitHub",
+               "type": "url",
+               "url": "https://gist.github.com/ityonemo/769532c2017ed9143f3571e5ac104e50"
+            }, {
+               "date_added": "13349711314000000",
+               "date_last_used": "0",
+               "guid": "04315c1b-4732-40db-b018-c7c1d10595b7",
+               "id": "49",
+               "name": "Documentation - The Zig Programming Language",
+               "type": "url",
+               "url": "https://ziglang.org/documentation/master/#Introduction"
+            } ],
+            "date_added": "13354226189402158",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "dc1a9e4c-20b3-42b3-81e4-f5ca5d13cf2c",
+            "id": "44",
+            "name": "zig",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13339844709000000",
+               "date_last_used": "0",
+               "guid": "a9853b0f-8ce1-4b1f-a506-a0f5c148fb07",
+               "id": "51",
+               "name": "std::fs - Rust",
+               "type": "url",
+               "url": "https://doc.rust-lang.org/std/fs/"
+            }, {
+               "date_added": "13340637046000000",
+               "date_last_used": "0",
+               "guid": "cde6e07e-42d5-4d6c-a7b8-af873614b17b",
+               "id": "52",
+               "name": "yew/examples at master · yewstack/yew",
+               "type": "url",
+               "url": "https://github.com/yewstack/yew/tree/master/examples"
+            }, {
+               "date_added": "13340646759000000",
+               "date_last_used": "0",
+               "guid": "ac00e6ff-a512-41b6-80b8-48ebf1dd3bc4",
+               "id": "53",
+               "name": "Welcome | Actix",
+               "type": "url",
+               "url": "https://actix.rs/docs/"
+            }, {
+               "date_added": "13341399655000000",
+               "date_last_used": "0",
+               "guid": "c8154808-82c4-4132-b267-97c417f2e2ad",
+               "id": "54",
+               "name": "Leptos Introduction",
+               "type": "url",
+               "url": "https://leptos-rs.github.io/leptos/"
+            } ],
+            "date_added": "13354226189402336",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "eeb0e322-e0f1-4d3d-a7b0-9e76cfb63ce0",
+            "id": "50",
+            "name": "Rust",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13314376416000000",
+               "date_last_used": "0",
+               "guid": "67d166a3-d912-40dc-a4f7-c43bd1cac5fa",
+               "id": "56",
+               "name": "GitHub Docs",
+               "type": "url",
+               "url": "https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources"
+            }, {
+               "date_added": "13314740556000000",
+               "date_last_used": "0",
+               "guid": "55e66342-3222-4fd4-bda6-229bf2606993",
+               "id": "57",
+               "name": "dabla1710",
+               "type": "url",
+               "url": "https://github.com/dabla1710?tab=repositories"
+            }, {
+               "date_added": "13314407890000000",
+               "date_last_used": "0",
+               "guid": "d13dce55-0f1a-4817-acc0-d4683d9d16ea",
+               "id": "58",
+               "name": "eOS sway/.config",
+               "type": "url",
+               "url": "https://github.com/EndeavourOS-Community-Editions/sway/tree/main/.config"
+            }, {
+               "date_added": "13314740589000000",
+               "date_last_used": "0",
+               "guid": "c9f96bc6-0ccb-4844-90ea-dd8cfcb018b4",
+               "id": "59",
+               "name": "Waybar",
+               "type": "url",
+               "url": "https://github.com/Alexays/Waybar"
+            }, {
+               "date_added": "13314744017000000",
+               "date_last_used": "0",
+               "guid": "6b75e5ab-09b3-406f-8731-965d301db152",
+               "id": "60",
+               "name": "taylor85345/hyprland-dotfiles",
+               "type": "url",
+               "url": "https://github.com/taylor85345/hyprland-dotfiles"
+            }, {
+               "date_added": "13318520097000000",
+               "date_last_used": "0",
+               "guid": "1e2cf362-6ee8-4fbe-8b7a-361ddfa11fce",
+               "id": "61",
+               "name": "steadylearner/Rust-Full-Stack",
+               "type": "url",
+               "url": "https://github.com/steadylearner/Rust-Full-Stack"
+            }, {
+               "date_added": "13318520313000000",
+               "date_last_used": "0",
+               "guid": "b22599c3-7b6c-4b66-bea9-93de3ba9a2d6",
+               "id": "62",
+               "name": "ctjhoa/rust-learning",
+               "type": "url",
+               "url": "https://github.com/ctjhoa/rust-learning"
+            }, {
+               "date_added": "13334784166000000",
+               "date_last_used": "0",
+               "guid": "3a5d3a06-7feb-4c82-8a09-d6730b1174f6",
+               "id": "63",
+               "name": "Rust By Practice - Rust By Practice",
+               "type": "url",
+               "url": "https://practice.rs/why-exercise.html"
+            }, {
+               "date_added": "13340266972000000",
+               "date_last_used": "0",
+               "guid": "d433e7d8-400a-4008-9112-471a51e65e6d",
+               "id": "64",
+               "name": "project-based-learning tutorials",
+               "type": "url",
+               "url": "https://github.com/practical-tutorials/project-based-learning#rust"
+            }, {
+               "date_added": "13340645270000000",
+               "date_last_used": "0",
+               "guid": "b15cfa9f-a919-47b7-bcc0-2dfde1c4b753",
+               "id": "65",
+               "name": "LukeMathWalker/zero-to-production: Code for \"Zero To Production In Rust\", a book on API development using Rust.",
+               "type": "url",
+               "url": "https://github.com/LukeMathWalker/zero-to-production"
+            } ],
+            "date_added": "13354226189402489",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "4dd7f2ca-3ccf-40a7-a071-c3ee604f1d41",
+            "id": "55",
+            "name": "GitHub Repos",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13339750038000000",
+               "date_last_used": "0",
+               "guid": "c03f5976-d4ac-4519-92ad-404c62b9f53f",
+               "id": "67",
+               "name": "Jobad.pdf",
+               "type": "url",
+               "url": "https://scontain.com/download/Jobad.pdf"
+            } ],
+            "date_added": "13354226189402746",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "61867bfa-c55d-4a50-8f06-b7c4d8281ca8",
+            "id": "66",
+            "name": "Jobs",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13310588666000000",
+               "date_last_used": "0",
+               "guid": "dc08895d-81d0-44e1-b4f9-225fc81c3c50",
+               "id": "69",
+               "name": "Hack The Box Home",
+               "type": "url",
+               "url": "https://www.hackthebox.com/"
+            }, {
+               "date_added": "13310588666000000",
+               "date_last_used": "0",
+               "guid": "f6402c18-83d5-4805-8cd5-94ba867d29cd",
+               "id": "70",
+               "name": "Hack The Box Forum",
+               "type": "url",
+               "url": "https://forum.hackthebox.com/"
+            }, {
+               "date_added": "13310588666000000",
+               "date_last_used": "0",
+               "guid": "add6302e-911a-410a-9077-236526736dcb",
+               "id": "71",
+               "name": "CyberSec Careers",
+               "type": "url",
+               "url": "https://www.hackthebox.com/hacker/infosec-careers"
+            }, {
+               "date_added": "13310588666000000",
+               "date_last_used": "0",
+               "guid": "6967fc3e-8fa6-4373-84fd-dd56e33d8b75",
+               "id": "72",
+               "name": "Hack The Box training",
+               "type": "url",
+               "url": "https://academy.hackthebox.com/"
+            }, {
+               "date_added": "13310588666000000",
+               "date_last_used": "0",
+               "guid": "88f460c2-8416-4d80-ad61-954a7a77c324",
+               "id": "73",
+               "name": "Hack The Box Blog",
+               "type": "url",
+               "url": "https://www.hackthebox.com/blog"
+            }, {
+               "date_added": "13310588666000000",
+               "date_last_used": "0",
+               "guid": "c6b75a53-38da-4615-b4b7-fb188fcbb407",
+               "id": "74",
+               "name": "Hack The Box Guides",
+               "type": "url",
+               "url": "https://help.hackthebox.com/en/"
+            } ],
+            "date_added": "13354226189402879",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "de35a526-ad15-4fc1-b887-683a16953bc3",
+            "id": "68",
+            "name": "Hack The Box",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13310588666000000",
+                  "date_last_used": "0",
+                  "guid": "a331eb31-fd66-449b-87a8-7d4a26ed568b",
+                  "id": "77",
+                  "name": "ADSB Exchange",
+                  "type": "url",
+                  "url": "https://globe.adsbexchange.com/"
+               }, {
+                  "date_added": "13310588666000000",
+                  "date_last_used": "0",
+                  "guid": "be1ac584-67d0-4739-a38b-be282beaf0ca",
+                  "id": "78",
+                  "name": "Flightware",
+                  "type": "url",
+                  "url": "https://flightaware.com/live/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "b989fb0a-664a-4da3-90a1-ae6d04590a49",
+                  "id": "79",
+                  "name": "Radarbox",
+                  "type": "url",
+                  "url": "https://www.radarbox.com/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "ec600b77-5d6e-4975-8ee6-cf8e1ffd1ede",
+                  "id": "80",
+                  "name": "Airportia",
+                  "type": "url",
+                  "url": "https://www.airportia.com/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "ab899f23-61d4-4631-ad32-cb3025bbfe1e",
+                  "id": "81",
+                  "name": "HabHub",
+                  "type": "url",
+                  "url": "https://tracker.habhub.org/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "71b72ba8-8d24-46b0-a627-5406d0047c2b",
+                  "id": "82",
+                  "name": "Satellite Map",
+                  "type": "url",
+                  "url": "https://satellitemap.space/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "b17f0b7b-eb2f-49c4-a560-76e3cbbce2eb",
+                  "id": "83",
+                  "name": "SatelliteXplorer",
+                  "type": "url",
+                  "url": "https://geoxc-apps2.bd.esri.com/Visualization/sat2/index.html"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "ec0f945c-ae55-48ee-9702-6a687e7d3fc8",
+                  "id": "84",
+                  "name": "Live Satellite Worldmap",
+                  "type": "url",
+                  "url": "https://in-the-sky.org/satmap_worldmap.php"
+               } ],
+               "date_added": "13354226189403158",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "93e0d04f-e8bb-40a4-bf5d-b9e28c88d447",
+               "id": "76",
+               "name": "Air & Space Tracking",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "c7de2969-dee1-4a22-9c9b-79d8599aefb7",
+                  "id": "86",
+                  "name": "Open Railway",
+                  "type": "url",
+                  "url": "https://www.openrailwaymap.org/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "81ff01ba-9a9f-4146-ac94-7f5a434fc21a",
+                  "id": "87",
+                  "name": "Mobility Portal",
+                  "type": "url",
+                  "url": "https://mobility.portal.geops.io/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "38bb3527-7164-4a78-9bd2-3f2c968b6eea",
+                  "id": "88",
+                  "name": "Open Train Times",
+                  "type": "url",
+                  "url": "https://www.opentraintimes.com/maps"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "266c7f5e-9c5e-4ed2-a99e-c50febd17111",
+                  "id": "89",
+                  "name": "Open Satellite World Map",
+                  "type": "url",
+                  "url": "https://satellites.pro/"
+               } ],
+               "date_added": "13354226189403254",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "7cda9116-6127-49bc-b25d-b23f6534891e",
+               "id": "85",
+               "name": "Land & Sea Tracking",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "54348de6-c243-4d01-bb51-5a9d883c9c46",
+                  "id": "91",
+                  "name": "Insecam",
+                  "type": "url",
+                  "url": "http://www.insecam.org/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "ea4a8dde-9acb-40fa-b292-83a8a6e07b05",
+                  "id": "92",
+                  "name": "World Webcams",
+                  "type": "url",
+                  "url": "http://world-webcams.nsspot.net/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "464f6fa5-2ba9-49a8-81f1-835c45335270",
+                  "id": "93",
+                  "name": "EarthCam",
+                  "type": "url",
+                  "url": "https://www.earthcam.com/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "eec5b265-9337-491c-a6a2-a53a6f4a6775",
+                  "id": "94",
+                  "name": "fisgonia",
+                  "type": "url",
+                  "url": "https://www.fisgonia.com/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "0e8649a8-8662-4fb5-8e08-48a2eced47b5",
+                  "id": "95",
+                  "name": "WorldCam",
+                  "type": "url",
+                  "url": "https://worldcam.eu/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "b54b72e1-a7f7-4691-ab84-2be1f68c54a2",
+                  "id": "96",
+                  "name": "OpenTopia",
+                  "type": "url",
+                  "url": "http://www.opentopia.com/hiddencam.php"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "f217d50f-3653-4bab-a3ff-8bdfa0ffc622",
+                  "id": "97",
+                  "name": "Live Iceland Cams",
+                  "type": "url",
+                  "url": "https://www.livefromiceland.is/"
+               } ],
+               "date_added": "13354226189403297",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "08269dd8-d66b-4b13-8610-9ac0fcd704cf",
+               "id": "90",
+               "name": "Camera Tracking",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "42bf4978-fd4d-4fec-bcd7-d2c713d73387",
+                  "id": "99",
+                  "name": "Shodan",
+                  "type": "url",
+                  "url": "https://www.shodan.io/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "2bd1b272-60a0-4fbc-b350-33801466dac8",
+                  "id": "100",
+                  "name": "Censys",
+                  "type": "url",
+                  "url": "https://search.censys.io/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "dbc89201-1862-40b1-ae2c-c694e7775fe5",
+                  "id": "101",
+                  "name": "GreyNoise",
+                  "type": "url",
+                  "url": "https://viz.greynoise.io/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "5286a9fe-2ec4-4bc1-936e-dce0b22e3acc",
+                  "id": "102",
+                  "name": "ZoomEye",
+                  "type": "url",
+                  "url": "https://www.zoomeye.org/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "14a46c78-3d63-44ac-999a-aca1913a134b",
+                  "id": "103",
+                  "name": "Hunter.IO",
+                  "type": "url",
+                  "url": "https://hunter.io/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "929217d6-1bfa-4a60-90ba-5d7493548b54",
+                  "id": "104",
+                  "name": "Wireless Device Database",
+                  "type": "url",
+                  "url": "https://wigle.net/"
+               } ],
+               "date_added": "13354226189403361",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "6301573b-9d0c-43d0-a865-bb7b31dfeff7",
+               "id": "98",
+               "name": "Search Engines",
+               "type": "folder"
+            } ],
+            "date_added": "13354226189403147",
+            "date_last_used": "0",
+            "date_modified": "13354226189403147",
+            "guid": "3e3be44b-1bc0-4aee-bd63-763d1957f64a",
+            "id": "75",
+            "name": "OSINT Services",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "3cdef384-4da7-4ad8-bc60-febb41555bdc",
+               "id": "106",
+               "name": "Exploit DB",
+               "type": "url",
+               "url": "https://www.exploit-db.com/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "965dd8ea-0451-45a2-b9e5-937e6af7d47e",
+               "id": "107",
+               "name": "Wordpress Vulnerabilities WPScan",
+               "type": "url",
+               "url": "https://wpscan.com/wordpresses"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "a2254205-e235-42df-adfd-a681a29b83d4",
+               "id": "108",
+               "name": "WordPress Vulnerability Database",
+               "type": "url",
+               "url": "https://patchstack.com/database/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "961d5ea6-cc4f-419c-8c61-2f73e545be8a",
+               "id": "109",
+               "name": "National Vuln Database",
+               "type": "url",
+               "url": "https://nvd.nist.gov/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "1db0ad12-fbba-4093-b799-44dd323e1736",
+               "id": "110",
+               "name": "CVE Details",
+               "type": "url",
+               "url": "https://www.cvedetails.com/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "d273c375-022c-4c57-a35e-322a6fb99420",
+               "id": "111",
+               "name": "Packetstorm",
+               "type": "url",
+               "url": "https://packetstormsecurity.com/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "3108767a-53bc-4f05-98be-c5a99b4af490",
+               "id": "112",
+               "name": "VulnDB",
+               "type": "url",
+               "url": "https://vuldb.com/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "3bdafeff-8855-4357-af72-b8bcd5325317",
+               "id": "113",
+               "name": "CXSecurity Exploit Database",
+               "type": "url",
+               "url": "https://cxsecurity.com/exploit/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "a4ad836f-42a3-4e6c-b7d5-8c354fedc580",
+               "id": "114",
+               "name": "Vulnerability Lab",
+               "type": "url",
+               "url": "https://www.vulnerability-lab.com/"
+            } ],
+            "date_added": "13354226189403410",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "d6961b72-f4bb-4d94-b027-2a3cf2a277ff",
+            "id": "105",
+            "name": "Vuln DB",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "665deced-2a0a-41f1-9e1d-706d31dedc7f",
+               "id": "116",
+               "name": "Electronic Frontier Foundation",
+               "type": "url",
+               "url": "https://eff.org/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "189e8564-f260-473a-8b62-2bb8ec8a1bfb",
+               "id": "117",
+               "name": "Surveillance Self Defense",
+               "type": "url",
+               "url": "https://ssd.eff.org/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "a7bdca2a-4cee-495b-a12c-e36d287d1f37",
+               "id": "118",
+               "name": "Email Privacy Self Defense",
+               "type": "url",
+               "url": "https://emailselfdefense.fsf.org/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "5de6ae39-65b5-4f20-b13a-b8df46eff431",
+               "id": "119",
+               "name": "GnuPG - HOWTOs",
+               "type": "url",
+               "url": "https://gnupg.org/documentation/howtos.html"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "e1248e0c-73a8-4ffb-9ae8-b9b7ab035e17",
+               "id": "120",
+               "name": "Tor Project",
+               "type": "url",
+               "url": "https://www.torproject.org/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "7d43086b-ced5-401b-88e1-c80b139ae743",
+               "id": "121",
+               "name": "Onion Links",
+               "type": "url",
+               "url": "http://s4k4ceiapwwgcm3mkb6e4diqecpo7kvdnfr5gg7sph7jjppqkvwwqtyd.onion/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "b66aa05f-05ee-4e8d-8805-7e9450a35879",
+               "id": "122",
+               "name": "DeepL Translator",
+               "type": "url",
+               "url": "https://www.deepl.com/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "65b4c6b5-0cc1-4ee0-bd68-2083dd756b60",
+               "id": "123",
+               "name": "E2E Cloud Storage",
+               "type": "url",
+               "url": "https://filen.io/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "1e8a4b0f-91dc-40b6-accf-f5b586393e1f",
+               "id": "124",
+               "name": "Quad9 DNS",
+               "type": "url",
+               "url": "https://quad9.net/"
+            }, {
+               "date_added": "13310588667000000",
+               "date_last_used": "0",
+               "guid": "6c62972a-2f88-4bc9-abfd-be1c5b5df2d1",
+               "id": "125",
+               "name": "PrivacyTools",
+               "type": "url",
+               "url": "https://www.privacytools.io/"
+            } ],
+            "date_added": "13354226189403499",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "0779f215-8ee1-448c-a6ea-cfc10924fa93",
+            "id": "115",
+            "name": "Privacy and Security",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "db5739a6-3ddb-428b-bb60-5e41a004abd7",
+                  "id": "128",
+                  "name": "Learn Bash",
+                  "type": "url",
+                  "url": "https://learn-bash.org/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "4c1f22aa-ac05-4fa3-81e2-95091d68e4a0",
+                  "id": "129",
+                  "name": "Learn Python",
+                  "type": "url",
+                  "url": "https://www.learnpython.org/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "6860d0a4-bf00-4832-949d-dbe5fbaa9b1d",
+                  "id": "130",
+                  "name": "Learn Go",
+                  "type": "url",
+                  "url": "https://go.dev/learn/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "433330b6-5cd0-4016-9694-5041b4a8e42f",
+                  "id": "131",
+                  "name": "Learn Nim",
+                  "type": "url",
+                  "url": "https://nim-lang.org/learn.html"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "26aa98c8-85dd-4176-a65f-ad11c22cf859",
+                  "id": "132",
+                  "name": "Learn C",
+                  "type": "url",
+                  "url": "https://www.learn-c.org/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "6c7e8677-1808-4d3c-8c43-fd18d17d972a",
+                  "id": "133",
+                  "name": "Learn C++",
+                  "type": "url",
+                  "url": "https://www.learn-cpp.org/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "b6d7c988-8571-4864-9677-cd5004240318",
+                  "id": "134",
+                  "name": "Learn NodeJS",
+                  "type": "url",
+                  "url": "https://nodejs.dev/learn"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "2e87c46e-ec01-43c4-8298-220b3adf1b99",
+                  "id": "135",
+                  "name": "Learn Java",
+                  "type": "url",
+                  "url": "https://dev.java/learn/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "e7a151ce-c3e7-4da1-bc88-0658c581c684",
+                  "id": "136",
+                  "name": "Learn PHP",
+                  "type": "url",
+                  "url": "https://www.learn-php.org/"
+               } ],
+               "date_added": "13354226189403600",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "f088eac8-7ddf-414b-98c2-34e3292d1ec3",
+               "id": "127",
+               "name": "Programming",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "197580ff-8cb6-461d-a956-9c0fc4aab3b0",
+                  "id": "138",
+                  "name": "Linux Journey",
+                  "type": "url",
+                  "url": "https://linuxjourney.com/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "3f9c5ee7-cccc-4475-840f-45931c494325",
+                  "id": "139",
+                  "name": "Linux Training",
+                  "type": "url",
+                  "url": "http://linux-training.be/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "f8539d22-cebe-4d43-994b-816f9afa918a",
+                  "id": "140",
+                  "name": "Debian Handbook",
+                  "type": "url",
+                  "url": "https://www.debian.org/doc/manuals/debian-handbook/index.en.html"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "2fc4ad27-b0e1-40d9-86eb-59c040d4981f",
+                  "id": "141",
+                  "name": "Arch Linux Wiki",
+                  "type": "url",
+                  "url": "https://wiki.archlinux.org/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "c3cbbfc8-5306-41b6-a37a-340a538b77fd",
+                  "id": "142",
+                  "name": "Networking Basics",
+                  "type": "url",
+                  "url": "https://www.softwaretestinghelp.com/computer-networking-basics/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "62c9ebb4-bf17-4516-9999-e09f8124e095",
+                  "id": "143",
+                  "name": "Networking Tutorials",
+                  "type": "url",
+                  "url": "https://www.computernetworkingnotes.com/networking-tutorials/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "1789ad6b-0398-4b99-9d20-f0cfc6e2c01e",
+                  "id": "144",
+                  "name": "Data Communication and Computer Network",
+                  "type": "url",
+                  "url": "https://www.guru99.com/data-communication-computer-network-tutorial.html"
+               } ],
+               "date_added": "13354226189403675",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "0f0ce381-5ca0-409a-890d-5ebf663d35b3",
+               "id": "137",
+               "name": "System and Networking",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "867034b5-f527-4889-99b7-9e94ba2b56a1",
+                  "id": "146",
+                  "name": "Binary Exploit Training",
+                  "type": "url",
+                  "url": "https://github.com/ashemery/exploitation-course"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "f1bf6189-f0da-4057-8539-8f07b98da2ee",
+                  "id": "147",
+                  "name": "RIPSEC Binary Exploit Training",
+                  "type": "url",
+                  "url": "https://github.com/RPISEC/MBE"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "2f5188e6-19f3-46f3-bb1c-7210af0f8a67",
+                  "id": "148",
+                  "name": "Exploit Education Labs",
+                  "type": "url",
+                  "url": "https://exploit.education/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "2aeb1ce2-1c98-4994-8005-0903736cc4b8",
+                  "id": "149",
+                  "name": "PortSwigger Web Exploit Lab",
+                  "type": "url",
+                  "url": "https://portswigger.net/web-security"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "62310451-c65d-4918-903a-77c3b20e6a60",
+                  "id": "150",
+                  "name": "PentesterLab",
+                  "type": "url",
+                  "url": "https://pentesterlab.com/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "209ccafa-26e8-48d2-a580-d8f38f3854d2",
+                  "id": "151",
+                  "name": "OWASP WebGoat",
+                  "type": "url",
+                  "url": "https://owasp.org/www-project-webgoat/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "74c7884c-5645-4c9a-aaaf-a5ba5ddaaf2a",
+                  "id": "152",
+                  "name": "OWASP Secure Coding Dojo",
+                  "type": "url",
+                  "url": "https://owasp.org/www-project-secure-coding-dojo/"
+               } ],
+               "date_added": "13354226189403752",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "4fc8508a-9097-439f-ba54-5331c6fb7a9d",
+               "id": "145",
+               "name": "Training Labs",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "a3f44cc9-fb13-4761-b4f3-4883437015f9",
+                  "id": "154",
+                  "name": "Open Security Training",
+                  "type": "url",
+                  "url": "https://opensecuritytraining.info/Training.html"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "0aed0384-36cc-44d7-a754-40ac568c713f",
+                  "id": "155",
+                  "name": "Pentest Standard",
+                  "type": "url",
+                  "url": "http://www.pentest-standard.org/index.php/Main_Page"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "dcc51cce-64b8-4260-968c-a8c201392220",
+                  "id": "156",
+                  "name": "OWASP Checklist",
+                  "type": "url",
+                  "url": "https://github.com/0xRadi/OWASP-Web-Checklist"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "43f22aca-bcce-49de-8e08-3c0721a6a816",
+                  "id": "157",
+                  "name": "Computer Security Student Tutorials",
+                  "type": "url",
+                  "url": "http://www.computersecuritystudent.com/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "8d2df2c9-a01a-4082-a89f-c3a7c0418e72",
+                  "id": "158",
+                  "name": "Binary Exploit Learn",
+                  "type": "url",
+                  "url": "https://guyinatuxedo.github.io/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "d3a1c2a0-9be6-4090-adcb-825e4a4c1d00",
+                  "id": "159",
+                  "name": "Linux Privilege Escalation Cheatsheet 0xsp",
+                  "type": "url",
+                  "url": "https://0xsp.com/offensive/privilege-escalation-cheatsheet/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "36fa30ff-7f2a-4529-95a8-949136f3386c",
+                  "id": "160",
+                  "name": "Linux Privilege Escalation Cheatsheet Redtm",
+                  "type": "url",
+                  "url": "https://redtm.com/privilege-escalation/linux-privilege-escalation-cheat-sheet/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "be6f6d5f-c396-44a7-8974-3af8098ae3a1",
+                  "id": "161",
+                  "name": "GTFO Bins",
+                  "type": "url",
+                  "url": "https://gtfobins.github.io/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "e0bb1e58-d7a5-4d3c-a342-d83cbcad5860",
+                  "id": "162",
+                  "name": "OWASP Pentest Checklist",
+                  "type": "url",
+                  "url": "https://github.com/0xRadi/OWASP-Web-Checklist"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "eebe2bdf-6694-4d49-8a08-e03f1ffbce11",
+                  "id": "163",
+                  "name": "Offensive Windows IPC part 1: Named Pipes",
+                  "type": "url",
+                  "url": "https://csandker.io/2021/01/10/Offensive-Windows-IPC-1-NamedPipes.html"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "1409ce36-6d33-4f2f-9651-74b21c4fd6bb",
+                  "id": "164",
+                  "name": "Offensive Windows IPC part 2: RPC",
+                  "type": "url",
+                  "url": "https://csandker.io/2021/02/21/Offensive-Windows-IPC-2-RPC.html"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "cdf4776c-91cf-443c-8879-bf7dfd751cb1",
+                  "id": "165",
+                  "name": "Offensive Windows IPC part 3: ALPC",
+                  "type": "url",
+                  "url": "https://csandker.io/2022/05/24/Offensive-Windows-IPC-3-ALPC.html"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "ef899758-9a9e-446b-9bf9-2b3d0f034f6f",
+                  "id": "166",
+                  "name": "Avoiding Memory Scanners",
+                  "type": "url",
+                  "url": "https://blog.kyleavery.com/posts/avoiding-memory-scanners/"
+               }, {
+                  "date_added": "13310588667000000",
+                  "date_last_used": "0",
+                  "guid": "d909d7c6-96f4-401a-b75d-fc811b69242b",
+                  "id": "167",
+                  "name": "Parrot Open Books Collection",
+                  "type": "url",
+                  "url": "https://mirror.parrot.sh/parrot/misc/openbooks/"
+               } ],
+               "date_added": "13354226189403830",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "962163ac-6604-487c-8aa1-bf748e59d1ac",
+               "id": "153",
+               "name": "Materials and Courses",
+               "type": "folder"
+            } ],
+            "date_added": "13354226189403595",
+            "date_last_used": "0",
+            "date_modified": "13354226189403595",
+            "guid": "a44d0aaf-8997-4d52-9522-8076c389dfd9",
+            "id": "126",
+            "name": "Learning Resources",
+            "type": "folder"
+         }, {
+            "date_added": "13335810050000000",
+            "date_last_used": "0",
+            "guid": "162ec004-3cf9-4a29-a900-1c543b819482",
+            "id": "168",
+            "name": "Uebungen.ws",
+            "type": "url",
+            "url": "https://www.uebungen.ws/"
+         }, {
+            "date_added": "13310588666000000",
+            "date_last_used": "0",
+            "guid": "d00b3541-c93d-4b06-93f3-f4fe2e0c98d9",
+            "id": "169",
+            "name": "Hacking Labs",
+            "type": "url",
+            "url": "https://www.hackthebox.com/hacker/hacking-labs"
+         }, {
+            "date_added": "13337887375000000",
+            "date_last_used": "0",
+            "guid": "a0d0604e-81d5-4063-a30e-97a42272924c",
+            "id": "170",
+            "name": "Calisthenics Exercises For Beginners",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=7Vyh-dkIMko"
+         } ],
+         "date_added": "13354225835005937",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13354225835005939",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13354225835005940",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

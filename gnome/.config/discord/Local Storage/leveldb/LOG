@@ -1,0 +1,4 @@
+2024/03/06-20:26:29.190 96e7 Creating DB /home/dabla/.config/discord/Local Storage/leveldb since it was missing.
+2024/03/06-20:26:29.205 96e7 Reusing MANIFEST /home/dabla/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/03/06-20:28:07.645 96e6 Level-0 table #5: started
+2024/03/06-20:28:07.672 96e6 Level-0 table #5: 2953373 bytes OK

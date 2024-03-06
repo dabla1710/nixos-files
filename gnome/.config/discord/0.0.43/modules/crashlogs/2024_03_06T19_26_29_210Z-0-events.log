@@ -1,0 +1,17 @@
+2024-03-06T19:26:29.216Z 0: 
+
+----------------------------------------------
+2024-03-06T19:26:29.229Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.43"}, modulepath: /home/dabla/.config/discord/0.0.43/modules
+2024-03-06T19:26:29.235Z 2: ✅ webContents.created web1 ""
+2024-03-06T19:26:29.240Z 3: ✅ window.created win1 "discord"
+2024-03-06T19:26:30.622Z 4: ✅ webContents.did-finish-load web1
+2024-03-06T19:26:38.368Z 5: ✅ webContents.created web2 ""
+2024-03-06T19:26:38.381Z 6: ✅ window.created win2 "Discord"
+2024-03-06T19:26:40.179Z 7: ✅ webContents.did-finish-load web2
+2024-03-06T19:26:40.279Z 8: window.close win1
+2024-03-06T19:26:40.305Z 9: webContents.destroyed web1
+2024-03-06T19:26:40.310Z 10: window.closed win1
+2024-03-06T19:28:07.466Z 11: window.close win2
+2024-03-06T19:28:07.476Z 12: before-quit
+2024-03-06T19:28:07.482Z 13: window.close win2
+2024-03-06T19:28:07.627Z 14: webContents.destroyed web2
