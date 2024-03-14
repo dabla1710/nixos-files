@@ -14,6 +14,9 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
+  # --- ntfs support
+  boot.supportedFilesystems = [ "ntfs" ];
+
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -183,7 +186,7 @@
     tree
   	# Development Programming Languages
   	python3
-    clang
+    #clang
   	gcc
   	gnumake
   	cmake
@@ -192,12 +195,15 @@
   	zig
     # Language Servers
     zls
-    gopls  
+    gopls
+    vscode-langservers-extracted
     # Editors
   	vscode
   	# gnome
   	gnome.gnome-tweaks
     gnome.gnome-keyring
+    # drivers
+    ntfs3g # linux ntfs driver
   	# Office
   	onlyoffice-bin
   	#Browsers
