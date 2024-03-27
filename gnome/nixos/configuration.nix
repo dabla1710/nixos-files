@@ -254,6 +254,9 @@
   # --- Services ---
   
   # List services that you want to enable:
+  
+  # Firmware Updates
+  services.fwupd.enable = true; # Use with fwupdmgr get-devices, refresh, get-updates, update
 
   services.flatpak.enable = true;
 
