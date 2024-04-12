@@ -147,9 +147,9 @@
   };
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.dabla = {
+  users.users.dabs = {
     isNormalUser = true;
-    description = "dabla";
+    description = "dabs";
     extraGroups = [ "networkmanager" "wheel" ];
     shell = pkgs.fish;
     packages = with pkgs; [
@@ -161,7 +161,11 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-
+  
+  # Unsafe electron for obsidian
+  nixpkgs.config.permittedInsecurePackages = [
+                "electron-25.9.0"
+              ];
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -197,6 +201,7 @@
     zls
     gopls
     vscode-langservers-extracted
+    vimPlugins.nvim-jdtls
     # Editors
   	vscode
   	# gnome
@@ -211,11 +216,13 @@
   	chromium
   	# GUI Software
   	github-desktop
-  	discord
+  	#discord
     gimp
     thunderbird
     steam
     protonup-qt
+    obsidian
+    jetbrains.rider
     # For Hyprland
     waybar
     dunst
@@ -241,7 +248,7 @@
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
     dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
   };
-
+	
   nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
     "steam"
     "steam-original"
