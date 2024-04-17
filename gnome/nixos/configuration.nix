@@ -231,7 +231,6 @@
     libnotify
     rofi-wayland
     wofi
-    notion-app-enhanced
   ];
 
   # --- Program Configurations ---
