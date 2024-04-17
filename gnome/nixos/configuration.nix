@@ -185,9 +185,10 @@
   	neovim
   	helix
   	wl-clipboard
-  	xclip
-  	neofetch
+	  xclip
+    neofetch
     tree
+    unzip
   	# Development Programming Languages
   	python3
     #clang
@@ -216,11 +217,12 @@
   	chromium
   	# GUI Software
   	github-desktop
-  	#discord
+  	discord
     gimp
     thunderbird
-    steam
-    protonup-qt
+    # --- No Gaming Setup
+    #steam
+    #protonup-qt
     obsidian
     jetbrains.rider
     # For Hyprland
@@ -229,6 +231,7 @@
     libnotify
     rofi-wayland
     wofi
+    notion-app-enhanced
   ];
 
   # --- Program Configurations ---
