@@ -190,6 +190,7 @@
     tree
     unzip
   	# Development Programming Languages
+    openjdk
   	python3
     #clang
   	gcc
@@ -202,9 +203,15 @@
     zls
     gopls
     vscode-langservers-extracted
-    vimPlugins.nvim-jdtls
-    # Editors
+    vimPlugins.nvim-jdtls # java
+    jdt-language-server # java
+    # IDEs / Editors
   	vscode
+    jetbrains.clion
+    jetbrains.goland
+    jetbrains.idea-ultimate
+    jetbrains.rider
+    jetbrains.pycharm-professional   #jetbrains.pycharm-community    
   	# gnome
   	gnome.gnome-tweaks
     gnome.gnome-keyring
@@ -224,7 +231,6 @@
     steam
     protonup-qt
     obsidian
-    jetbrains.rider
 ];
 
   # --- Program Configurations ---
