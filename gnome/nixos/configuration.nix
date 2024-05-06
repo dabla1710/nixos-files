@@ -208,6 +208,7 @@
   	# gnome
   	gnome.gnome-tweaks
     gnome.gnome-keyring
+    gnome-extension-manager
     # drivers
     ntfs3g # linux ntfs driver
   	# Office
@@ -220,18 +221,11 @@
   	discord
     gimp
     thunderbird
-    # --- No Gaming Setup
-    #steam
-    #protonup-qt
+    steam
+    protonup-qt
     obsidian
     jetbrains.rider
-    # For Hyprland
-    waybar
-    dunst
-    libnotify
-    rofi-wayland
-    wofi
-  ];
+];
 
   # --- Program Configurations ---
 
