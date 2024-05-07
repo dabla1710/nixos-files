@@ -1,0 +1,43 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="EditorBackSpace">
+      <i c="6" l="1715066189675" />
+    </e>
+    <e n="FileChooser.NewFolder">
+      <i c="1" l="1715065860364" />
+    </e>
+    <e n="NewProject">
+      <i c="1" l="1715066183965" />
+    </e>
+    <e n="OpenFile">
+      <i c="1" l="1715066140574" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="1" l="1715065885236" />
+    </e>
+    <e n="Run">
+      <i c="2" l="1715066214052" />
+    </e>
+    <e n="SaveAll">
+      <i c="2" l="1715066220999" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="1" l="1715065901383" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1715065679532" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1715065677326" />
+    </e>
+    <e n="com.intellij.execution.actions.RunConfigurationsComboBoxAction$RunCurrentFileAction">
+      <i c="1" l="1715065886059" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="2" l="1715066180632" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="3" l="1715066218747" />
+    </e>
+  </component>
+</application>

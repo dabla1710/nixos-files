@@ -1,0 +1,4 @@
+2024/05/06-23:52:18.465 5db2 Creating DB /home/dabs/.config/discord/Local Storage/leveldb since it was missing.
+2024/05/06-23:52:18.483 5db2 Reusing MANIFEST /home/dabs/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2024/05/06-23:53:37.190 5dcb Level-0 table #5: started
+2024/05/06-23:53:37.206 5dcb Level-0 table #5: 760618 bytes OK
