@@ -172,13 +172,19 @@
   # GUI Software
   github-desktop
   discord
-  gimp
   thunderbird
-  steam
-  protonup-qt
   obsidian
   notion-app-enhanced
   asar # to make notion work again on linux https://github.com/notion-enhancer/notion-enhancer/issues/812
+  # Gaming
+  steam
+  protonup-qt
+  # Streaming and Editing
+  obs-studio
+  davinci-resolve
+  gimp
+  blender
+  avidemux
 ];
 
   
