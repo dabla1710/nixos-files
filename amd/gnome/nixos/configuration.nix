@@ -181,10 +181,8 @@
   protonup-qt
   # Streaming and Editing
   obs-studio
-  davinci-resolve
   gimp
   blender
-  avidemux
 ];
 
   
