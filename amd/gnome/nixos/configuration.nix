@@ -130,6 +130,8 @@
   neofetch
   tree
   unzip
+  htop
+  lm_sensors # hardware sensors lile cpu temperature - use with: sensors-detect
   # Development Programming Languages
   python3
   #clang
