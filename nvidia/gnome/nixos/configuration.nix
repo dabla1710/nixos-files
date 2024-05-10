@@ -199,6 +199,9 @@
   	go
   	rustup
   	zig
+    # java stuff
+    jdk8
+    maven # package manager
     # Language Servers
     zls
     gopls
@@ -212,7 +215,8 @@
     jetbrains.idea-ultimate
     jetbrains.rider
     jetbrains.pycharm-professional   #jetbrains.pycharm-community    
-  	# gnome
+    eclipses.eclipse-java
+   	# gnome
   	gnome.gnome-tweaks
     gnome.gnome-keyring
     gnome-extension-manager
@@ -223,14 +227,20 @@
   	#Browsers
   	brave
   	chromium
-  	# GUI Software
-  	github-desktop
-  	discord
-    gimp
+    # GUI Software
+    github-desktop
+    discord
     thunderbird
+    obsidian
+    notion-app-enhanced
+    asar # to make notion work again on linux https://github.com/notion-enhancer/notion-enhancer/issues/812
+    # Gaming
     steam
     protonup-qt
-    obsidian
+    # Streaming and Editing
+    obs-studio
+    gimp
+    blender
 ];
 
   # --- Program Configurations ---
