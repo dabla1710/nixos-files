@@ -20,6 +20,10 @@
   # --- AMD GPU
   boot.initrd.kernelModules = [ "amdgpu" ]; # use amd early
 
+  # --- Latest Linux kernel
+  boot.kernelPackages = pkgs.linuxPackages_latest;
+  # boot.extraModulePackages = with config.boot.kernelPackages; [ wireguard ]; # possible wireguard for vpn setup later
+  
   networking.hostName = "nixos"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
@@ -100,6 +104,12 @@
     ];
   };
 
+  # --- Virtualization using VirtualBox
+  virtualisation.virtualbox.host.enable = true;
+  # virtualisation.virtualbox.guest.enable = true;
+  #virtualisation.virtualbox.guest.x11 = true;
+  users.extraGroups.vboxusers.members = [ "dabs" ]; # check with "getent group vboxusers"
+
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
@@ -174,8 +184,6 @@
   discord
   thunderbird
   obsidian
-  notion-app-enhanced
-  asar # to make notion work again on linux https://github.com/notion-enhancer/notion-enhancer/issues/812
   # Gaming
   steam
   protonup-qt
@@ -185,10 +193,8 @@
   blender
 ];
 
+  # --- Program Configurations
   
-  # --- Program Configurations ---
-
-  programs.fish.enable = true;
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
@@ -196,6 +202,8 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
+
+  programs.fish.enable = true;
 
   # Steam
   programs.steam = {
@@ -212,12 +220,7 @@
 
 
   # --- Services ---
-  
-  # List services that you want to enable:
-  
-  # Firmware Updates
-  services.fwupd.enable = true; # Use with fwupdmgr get-devices, refresh, get-updates, update
-
+  services.fwupd.enable = true; # for firmware updates: fwupdmgr get-devices, refresh, get-updates, update
   services.flatpak.enable = true;  
     
       
