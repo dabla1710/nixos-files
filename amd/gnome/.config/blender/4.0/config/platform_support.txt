@@ -1,0 +1,1 @@
+{AMD/AMD Radeon RX 7800 XT (gfx1101, LLVM 16.0.6, DRM 3.49, 6.1.86)/4.6 (Core Profile) Mesa 23.1.9}=SUPPORTED

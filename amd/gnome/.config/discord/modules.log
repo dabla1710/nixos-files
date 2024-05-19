@@ -694,3 +694,106 @@
 2024-05-06T21:52:41.183Z [Modules] Finished module downloads. [success: 3] [failure: 1]
 2024-05-06T21:52:41.183Z [Modules] Installing discord_rpc@1 from /home/dabs/.config/discord/0.0.49/modules/pending/discord_rpc-1.zip
 2024-05-06T21:52:41.190Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-05-12T12:41:51.726Z [Modules] Modules initializing
+2024-05-12T12:41:51.726Z [Modules] Distribution: remote
+2024-05-12T12:41:51.726Z [Modules] Host updates: disabled
+2024-05-12T12:41:51.726Z [Modules] Module updates: enabled
+2024-05-12T12:41:51.726Z [Modules] Module install path: /home/dabs/.config/discord/0.0.49/modules
+2024-05-12T12:41:51.726Z [Modules] Module installed file path: /home/dabs/.config/discord/0.0.49/modules/installed.json
+2024-05-12T12:41:51.727Z [Modules] Module download path: /home/dabs/.config/discord/0.0.49/modules/pending
+2024-05-12T12:41:51.920Z [Modules] No updates to install
+2024-05-12T12:41:51.920Z [Modules] Host is up to date.
+2024-05-12T12:41:51.920Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-12T12:41:52.155Z [Modules] No module updates available.
+2024-05-12T12:41:53.816Z [Modules] Starting to install discord_zstd...
+2024-05-12T12:41:53.817Z [Modules] Fetching discord_zstd@0 from https://discord.com/api/modules/stable/discord_zstd/0
+2024-05-12T12:41:53.817Z [Modules] Streaming discord_zstd@0 to /home/dabs/.config/discord/0.0.49/modules/pending/discord_zstd-0.zip
+2024-05-12T12:41:55.194Z [Modules] Failed fetching module discord_zstd@0: Error: HTTP Error: Status Code 403
+2024-05-12T12:41:55.195Z [Modules] Finished module downloads. [success: 0] [failure: 1]
+2024-05-12T12:41:55.231Z [Modules] Host is up to date.
+2024-05-12T12:41:55.231Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-12T12:41:55.233Z [Modules] No module updates available.
+2024-05-12T12:41:55.758Z [Modules] Starting to install discord_zstd...
+2024-05-12T12:41:55.759Z [Modules] Fetching discord_zstd@0 from https://discord.com/api/modules/stable/discord_zstd/0
+2024-05-12T12:41:55.759Z [Modules] Streaming discord_zstd@0 to /home/dabs/.config/discord/0.0.49/modules/pending/discord_zstd-0.zip
+2024-05-12T12:41:56.671Z [Modules] Host is up to date.
+2024-05-12T12:41:56.671Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-12T12:41:56.673Z [Modules] No module updates available.
+2024-05-12T12:41:56.745Z [Modules] Failed fetching module discord_zstd@0: Error: HTTP Error: Status Code 403
+2024-05-12T12:41:56.745Z [Modules] Finished module downloads. [success: 0] [failure: 1]
+2024-05-16T12:02:46.870Z [Modules] Modules initializing
+2024-05-16T12:02:46.870Z [Modules] Distribution: remote
+2024-05-16T12:02:46.870Z [Modules] Host updates: disabled
+2024-05-16T12:02:46.870Z [Modules] Module updates: enabled
+2024-05-16T12:02:46.870Z [Modules] Module install path: /home/dabs/.config/discord/0.0.49/modules
+2024-05-16T12:02:46.870Z [Modules] Module installed file path: /home/dabs/.config/discord/0.0.49/modules/installed.json
+2024-05-16T12:02:46.870Z [Modules] Module download path: /home/dabs/.config/discord/0.0.49/modules/pending
+2024-05-16T12:02:47.035Z [Modules] No updates to install
+2024-05-16T12:02:47.036Z [Modules] Host is up to date.
+2024-05-16T12:02:47.036Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-16T12:02:47.295Z [Modules] No module updates available.
+2024-05-16T12:02:48.471Z [Modules] Starting to install discord_zstd...
+2024-05-16T12:02:48.471Z [Modules] Fetching discord_zstd@0 from https://discord.com/api/modules/stable/discord_zstd/0
+2024-05-16T12:02:48.471Z [Modules] Streaming discord_zstd@0 to /home/dabs/.config/discord/0.0.49/modules/pending/discord_zstd-0.zip
+2024-05-16T12:02:49.554Z [Modules] Failed fetching module discord_zstd@0: Error: HTTP Error: Status Code 403
+2024-05-16T12:02:49.555Z [Modules] Finished module downloads. [success: 0] [failure: 1]
+2024-05-16T12:02:49.675Z [Modules] Host is up to date.
+2024-05-16T12:02:49.675Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-16T12:02:49.678Z [Modules] No module updates available.
+2024-05-16T12:28:18.443Z [Modules] Modules initializing
+2024-05-16T12:28:18.443Z [Modules] Distribution: remote
+2024-05-16T12:28:18.443Z [Modules] Host updates: disabled
+2024-05-16T12:28:18.443Z [Modules] Module updates: enabled
+2024-05-16T12:28:18.443Z [Modules] Module install path: /home/dabs/.config/discord/0.0.49/modules
+2024-05-16T12:28:18.443Z [Modules] Module installed file path: /home/dabs/.config/discord/0.0.49/modules/installed.json
+2024-05-16T12:28:18.443Z [Modules] Module download path: /home/dabs/.config/discord/0.0.49/modules/pending
+2024-05-16T12:28:18.608Z [Modules] No updates to install
+2024-05-16T12:28:18.608Z [Modules] Host is up to date.
+2024-05-16T12:28:18.608Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-16T12:28:18.843Z [Modules] No module updates available.
+2024-05-16T12:28:19.701Z [Modules] Starting to install discord_zstd...
+2024-05-16T12:28:19.701Z [Modules] Fetching discord_zstd@0 from https://discord.com/api/modules/stable/discord_zstd/0
+2024-05-16T12:28:19.701Z [Modules] Streaming discord_zstd@0 to /home/dabs/.config/discord/0.0.49/modules/pending/discord_zstd-0.zip
+2024-05-16T12:28:20.731Z [Modules] Host is up to date.
+2024-05-16T12:28:20.731Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-16T12:28:20.734Z [Modules] No module updates available.
+2024-05-16T12:28:21.368Z [Modules] Failed fetching module discord_zstd@0: Error: HTTP Error: Status Code 403
+2024-05-16T12:28:21.368Z [Modules] Finished module downloads. [success: 0] [failure: 1]
+2024-05-16T12:28:48.774Z [Modules] Modules initializing
+2024-05-16T12:28:48.774Z [Modules] Distribution: remote
+2024-05-16T12:28:48.774Z [Modules] Host updates: disabled
+2024-05-16T12:28:48.774Z [Modules] Module updates: enabled
+2024-05-16T12:28:48.774Z [Modules] Module install path: /home/dabs/.config/discord/0.0.49/modules
+2024-05-16T12:28:48.774Z [Modules] Module installed file path: /home/dabs/.config/discord/0.0.49/modules/installed.json
+2024-05-16T12:28:48.774Z [Modules] Module download path: /home/dabs/.config/discord/0.0.49/modules/pending
+2024-05-16T12:28:48.949Z [Modules] No updates to install
+2024-05-16T12:28:48.949Z [Modules] Host is up to date.
+2024-05-16T12:28:48.950Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-16T12:28:48.956Z [Modules] No module updates available.
+2024-05-16T12:28:50.767Z [Modules] Starting to install discord_zstd...
+2024-05-16T12:28:50.767Z [Modules] Fetching discord_zstd@0 from https://discord.com/api/modules/stable/discord_zstd/0
+2024-05-16T12:28:50.767Z [Modules] Streaming discord_zstd@0 to /home/dabs/.config/discord/0.0.49/modules/pending/discord_zstd-0.zip
+2024-05-16T12:28:51.751Z [Modules] Host is up to date.
+2024-05-16T12:28:51.751Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-16T12:28:51.753Z [Modules] No module updates available.
+2024-05-16T12:28:51.994Z [Modules] Failed fetching module discord_zstd@0: Error: HTTP Error: Status Code 403
+2024-05-16T12:28:51.995Z [Modules] Finished module downloads. [success: 0] [failure: 1]
+2024-05-18T22:26:20.467Z [Modules] Modules initializing
+2024-05-18T22:26:20.468Z [Modules] Distribution: remote
+2024-05-18T22:26:20.468Z [Modules] Host updates: disabled
+2024-05-18T22:26:20.468Z [Modules] Module updates: enabled
+2024-05-18T22:26:20.468Z [Modules] Module install path: /home/dabs/.config/discord/0.0.49/modules
+2024-05-18T22:26:20.468Z [Modules] Module installed file path: /home/dabs/.config/discord/0.0.49/modules/installed.json
+2024-05-18T22:26:20.468Z [Modules] Module download path: /home/dabs/.config/discord/0.0.49/modules/pending
+2024-05-18T22:26:20.613Z [Modules] No updates to install
+2024-05-18T22:26:20.613Z [Modules] Host is up to date.
+2024-05-18T22:26:20.613Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-18T22:26:20.812Z [Modules] No module updates available.
+2024-05-18T22:26:22.664Z [Modules] Starting to install discord_zstd...
+2024-05-18T22:26:22.665Z [Modules] Fetching discord_zstd@0 from https://discord.com/api/modules/stable/discord_zstd/0
+2024-05-18T22:26:22.665Z [Modules] Streaming discord_zstd@0 to /home/dabs/.config/discord/0.0.49/modules/pending/discord_zstd-0.zip
+2024-05-18T22:26:23.634Z [Modules] Host is up to date.
+2024-05-18T22:26:23.634Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-05-18T22:26:23.636Z [Modules] No module updates available.
+2024-05-18T22:26:23.836Z [Modules] Failed fetching module discord_zstd@0: Error: HTTP Error: Status Code 403
+2024-05-18T22:26:23.836Z [Modules] Finished module downloads. [success: 0] [failure: 1]

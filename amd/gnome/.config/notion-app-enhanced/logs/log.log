@@ -2956,3 +2956,492 @@ Headers: {
 [2024-05-07 11:33:45.286] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable' }
 [2024-05-07 11:40:53.437] [info] Quitting...
 [2024-05-07 11:40:53.437] [info] Killing child process
+[2024-05-09 23:59:05.544] [info] Checking for update
+[2024-05-09 23:59:05.871] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'latestVersionPath',
+  data: {
+    message: 'latestVersion.json path /home/dabs/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2024-05-09 23:59:05.873] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'errorReadingPath',
+  error: {
+    name: 'Error',
+    message: "ENOENT: no such file or directory, open '/home/dabs/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'",
+    stack: "Error: ENOENT: no such file or directory, open '/home/dabs/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'"
+  },
+  data: {
+    message: 'Error reading /home/dabs/.config/notion-app-enhanced/notionAssetCache-v2/latestVersion.json'
+  }
+}
+[2024-05-09 23:59:05.873] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentVersionLoaded',
+  data: {}
+}
+[2024-05-09 23:59:05.873] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'syncVersionEmptyLatestVersion'
+}
+[2024-05-09 23:59:05.874] [info] {
+  level: 'info',
+  from: 'AssetCache',
+  type: 'currentSyncedAssetsJson',
+  data: {}
+}
+[2024-05-09 23:59:05.948] [info] { level: 'info', from: 'AssetCache', type: 'noAppUpdateAvailable' }
+[2024-05-09 23:59:06.495] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:06.529] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:06.855] [error] Error: HttpError: 404 
+"method: GET url: https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.18-1/latest-linux.yml\n\nPlease double check that your authentication token is correct. Due to security reasons actual status maybe not reported, but 404.\n"
+Headers: {
+  "server": "GitHub.com",
+  "date": "Thu, 09 May 2024 21:59:06 GMT",
+  "content-type": "text/plain; charset=utf-8",
+  "vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With",
+  "cache-control": "no-cache",
+  "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+  "x-frame-options": "deny",
+  "x-content-type-options": "nosniff",
+  "x-xss-protection": "0",
+  "referrer-policy": "no-referrer-when-downgrade",
+  "content-security-policy": "default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src 'self' data:; script-src 'self'; style-src 'unsafe-inline'",
+  "content-encoding": "gzip",
+  "content-length": "29",
+  "x-github-request-id": "EB28:3AE44E:74D578F:76CFCF9:663D472A"
+}
+    at createHttpError (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/node_modules/builder-util-runtime/out/httpExecutor.js:84:10)
+    at ElectronHttpExecutor.handleResponse (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/node_modules/builder-util-runtime/out/httpExecutor.js:167:14)
+    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/node_modules/builder-util-runtime/out/httpExecutor.js:133:16)
+    at ClientRequest.emit (events.js:315:20)
+    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)
+[2024-05-09 23:59:06.856] [info] {
+  level: 'info',
+  from: 'autoUpdater',
+  type: 'unsupportedLinuxApp',
+  error: {
+    statusCode: 404,
+    name: 'HttpError',
+    message: '404 \n' +
+      '"method: GET url: https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.18-1/latest-linux.yml\\n\\nPlease double check that your authentication token is correct. Due to security reasons actual status maybe not reported, but 404.\\n"\n' +
+      'Headers: {\n' +
+      '  "server": "GitHub.com",\n' +
+      '  "date": "Thu, 09 May 2024 21:59:06 GMT",\n' +
+      '  "content-type": "text/plain; charset=utf-8",\n' +
+      '  "vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With",\n' +
+      '  "cache-control": "no-cache",\n' +
+      '  "strict-transport-security": "max-age=31536000; includeSubdomains; preload",\n' +
+      '  "x-frame-options": "deny",\n' +
+      '  "x-content-type-options": "nosniff",\n' +
+      '  "x-xss-protection": "0",\n' +
+      '  "referrer-policy": "no-referrer-when-downgrade",\n' +
+      `  "content-security-policy": "default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src 'self' data:; script-src 'self'; style-src 'unsafe-inline'",\n` +
+      '  "content-encoding": "gzip",\n' +
+      '  "content-length": "29",\n' +
+      '  "x-github-request-id": "EB28:3AE44E:74D578F:76CFCF9:663D472A"\n' +
+      '}',
+    stack: 'HttpError: 404 \n' +
+      '"method: GET url: https://github.com/notion-enhancer/notion-repackaged/releases/download/v2.0.18-1/latest-linux.yml\\n\\nPlease double check that your authentication token is correct. Due to security reasons actual status maybe not reported, but 404.\\n"\n' +
+      'Headers: {\n' +
+      '  "server": "GitHub.com",\n' +
+      '  "date": "Thu, 09 May 2024 21:59:06 GMT",\n' +
+      '  "content-type": "text/plain; charset=utf-8",\n' +
+      '  "vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With",\n' +
+      '  "cache-control": "no-cache",\n' +
+      '  "strict-transport-security": "max-age=31536000; includeSubdomains; preload",\n' +
+      '  "x-frame-options": "deny",\n' +
+      '  "x-content-type-options": "nosniff",\n' +
+      '  "x-xss-protection": "0",\n' +
+      '  "referrer-policy": "no-referrer-when-downgrade",\n' +
+      `  "content-security-policy": "default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src 'self' data:; script-src 'self'; style-src 'unsafe-inline'",\n` +
+      '  "content-encoding": "gzip",\n' +
+      '  "content-length": "29",\n' +
+      '  "x-github-request-id": "EB28:3AE44E:74D578F:76CFCF9:663D472A"\n' +
+      '}\n' +
+      '    at createHttpError (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/node_modules/builder-util-runtime/out/httpExecutor.js:84:10)\n' +
+      '    at ElectronHttpExecutor.handleResponse (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/node_modules/builder-util-runtime/out/httpExecutor.js:167:14)\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/node_modules/builder-util-runtime/out/httpExecutor.js:133:16)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:06.941] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:06.944] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:06.960] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:06.980] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:06.982] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:06.984] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:06.990] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:06.994] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.002] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.005] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.016] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.018] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.029] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.035] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.037] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.051] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.062] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.071] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.073] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:07.186] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:08.077] [info] {
+  level: 'error',
+  from: 'main',
+  type: 'uncaughtException',
+  error: {
+    name: 'TypeError',
+    message: 'One-time callback was called more than once',
+    stack: 'TypeError: One-time callback was called more than once\n' +
+      '    at ClientRequest.<anonymous> (/nix/store/k228ybg3zqqy6iiw6ngzj2cnkym23d40-notion-app-enhanced-v2.0.18-1-extracted/resources/app.asar/main/schemeHandler.js:221:9)\n' +
+      '    at ClientRequest.emit (events.js:315:20)\n' +
+      '    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n' +
+      '    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:105:6293)\n' +
+      '    at SimpleURLLoaderWrapper.emit (events.js:315:20)\n' +
+      '    at SimpleURLLoaderWrapper.EventEmitter.emit (domain.js:483:12)'
+  }
+}
+[2024-05-09 23:59:28.380] [info] Quitting...
+[2024-05-09 23:59:28.381] [info] Killing child process

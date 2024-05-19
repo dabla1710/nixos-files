@@ -1,3 +1,33 @@
-2024/05/07-10:44:05.583 cc0f Reusing MANIFEST /home/dabs/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
-2024/05/07-10:44:05.584 cc0f Recovering log #3
-2024/05/07-10:44:05.584 cc0f Reusing old log /home/dabs/.config/BraveSoftware/Brave-Browser/Default/Extension State/000003.log 
+2024/05/16-17:17:11.019 4db9 Reusing MANIFEST /home/dabs/.config/BraveSoftware/Brave-Browser/Default/Extension State/MANIFEST-000001
+2024/05/16-17:17:11.020 4db9 Recovering log #3
+2024/05/16-17:17:11.020 4db9 Reusing old log /home/dabs/.config/BraveSoftware/Brave-Browser/Default/Extension State/000003.log 
+2024/05/16-18:44:44.378 4da0 Level-0 table #5: started
+2024/05/16-18:44:44.397 4da0 Level-0 table #5: 734379 bytes OK
+2024/05/16-18:44:44.404 4da0 Delete type=0 #3
+2024/05/16-20:12:44.441 4da0 Level-0 table #7: started
+2024/05/16-20:12:44.460 4da0 Level-0 table #7: 733511 bytes OK
+2024/05/16-20:12:44.466 4da0 Delete type=0 #4
+2024/05/16-21:40:44.506 4da0 Level-0 table #9: started
+2024/05/16-21:40:44.526 4da0 Level-0 table #9: 735035 bytes OK
+2024/05/16-21:40:44.533 4da0 Delete type=0 #6
+2024/05/16-23:08:44.567 4da0 Level-0 table #11: started
+2024/05/16-23:08:44.586 4da0 Level-0 table #11: 734207 bytes OK
+2024/05/16-23:08:44.593 4da0 Delete type=0 #8
+2024/05/17-00:35:44.629 4da0 Level-0 table #13: started
+2024/05/17-00:35:44.648 4da0 Level-0 table #13: 734665 bytes OK
+2024/05/17-00:35:44.655 4da0 Delete type=0 #10
+2024/05/17-02:03:44.690 4da0 Level-0 table #15: started
+2024/05/17-02:03:44.701 4da0 Level-0 table #15: 734122 bytes OK
+2024/05/17-02:03:44.708 4da0 Delete type=0 #12
+2024/05/17-02:03:44.709 4da0 Compacting 4@0 + 1@1 files
+2024/05/17-02:03:44.721 4da0 Generated table #16@0: 1 keys, 1041 bytes
+2024/05/17-02:03:44.721 4da0 Compacted 4@0 + 1@1 files => 1041 bytes
+2024/05/17-02:03:44.728 4da0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/17-02:03:44.728 4da0 Delete type=2 #7
+2024/05/17-02:03:44.728 4da0 Delete type=2 #11
+2024/05/17-02:03:44.728 4da0 Delete type=2 #9
+2024/05/17-02:03:44.728 4da0 Delete type=2 #15
+2024/05/17-02:03:44.728 4da0 Delete type=2 #13
+2024/05/17-03:31:44.754 4da0 Level-0 table #18: started
+2024/05/17-03:31:44.764 4da0 Level-0 table #18: 733806 bytes OK
+2024/05/17-03:31:44.771 4da0 Delete type=0 #14

@@ -1,0 +1,4 @@
+[Bookmarks]
+[Recent]
+/home/dabs/Videos/rendered-videos/
+/home/dabs/Videos/blender-projects/

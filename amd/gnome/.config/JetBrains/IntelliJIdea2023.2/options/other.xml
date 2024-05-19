@@ -24,7 +24,7 @@
     "evlsprt3.232": "4",
     "experimental.ui.on.first.startup": "true",
     "experimental.ui.used.version": "232.10072.27",
-    "file.gist.reindex.count": "31",
+    "file.gist.reindex.count": "32",
     "fileTypeChangedCounter": "1",
     "fontSizeToResetConsole": "13.0",
     "fontSizeToResetEditor": "13.0",
@@ -63,13 +63,13 @@
     ]
   }
 }]]></component>
-  <component name="ShownTips"><![CDATA[{
-  "shownTips": {
-    "ContextActions": 1715066130297
+  <component name="ShownTips">{
+  &quot;shownTips&quot;: {
+    &quot;ContextActions&quot;: 1715066130297
   },
-  "proposedTips": {
-    "ContextActions": 1715066130207
+  &quot;proposedTips&quot;: {
+    &quot;ContextActions&quot;: 1715066130207
   },
-  "tipsOrderSeed": 1715066130181
-}]]></component>
+  &quot;tipsOrderSeed&quot;: 1715066130181
+}</component>
 </application>

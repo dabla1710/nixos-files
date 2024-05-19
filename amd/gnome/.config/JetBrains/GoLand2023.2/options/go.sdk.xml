@@ -1,0 +1,9 @@
+<application>
+  <component name="GoSdkList">
+    <sdk-url>
+      <set>
+        <option value="file:///nix/store/fqzds43dcw7164rm1h51n54l2ipxi1qj-go-1.21.9/share/go" />
+      </set>
+    </sdk-url>
+  </component>
+</application>
