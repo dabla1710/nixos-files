@@ -121,77 +121,91 @@
     "electron-25.9.0"
   ];
 
+  
+  fonts.packages = with pkgs; [
+    noto-fonts
+    noto-fonts-cjk
+    noto-fonts-emoji
+    liberation_ttf
+    fira-code
+    fira-code-symbols
+    mplus-outline-fonts.githubRelease
+    dina-font
+    proggyfonts
+  ];
 
+  
   environment.systemPackages = with pkgs; [
-  # shells
-  fish
-  # terminals
-  alacritty
-  kitty
-  # Commandline Utilities
-  lf # inspired by ranger
-  lshw # listing hardware
-  git
-  gh
-  neovim
-  helix
-  wl-clipboard
-  xclip
-  neofetch
-  tree
-  unzip
-  htop
-  lm_sensors # hardware sensors lile cpu temperature - use with: sensors-detect
-  # Development Programming Languages
-  python3
-  #clang
-  gcc
-  gnumake
-  cmake
-  go
-  rustup
-  zig
-  # java stuff
-  jdk8
-  maven # package manager
-  # Language Servers
-  zls
-  gopls
-  vscode-langservers-extracted
-  vimPlugins.nvim-jdtls # java
-  jdt-language-server # java
-  # IDEs / Editors
-  vscode
-  jetbrains.clion
-  jetbrains.goland
-  jetbrains.idea-ultimate
-  jetbrains.rider
-  jetbrains.pycharm-professional   #jetbrains.pycharm-community
-  eclipses.eclipse-java
-  # gnome
-  gnome.gnome-tweaks
-  gnome.gnome-keyring
-  gnome-extension-manager
-  # drivers
-  ntfs3g # linux ntfs driver
-  # Office
-  onlyoffice-bin
-  #Browsers
-  brave
-  chromium
-  # GUI Software
-  github-desktop
-  discord
-  thunderbird
-  obsidian
-  # Gaming
-  steam
-  protonup-qt
-  # Streaming and Editing
-  obs-studio
-  gimp
-  blender
-];
+    # shells
+    fish
+    # terminals
+    tmux
+    alacritty
+    kitty
+    # Commandline Utilities
+    lf # inspired by ranger
+    lshw # listing hardware
+    git
+    gh
+    neovim
+    helix
+    wl-clipboard
+    xclip
+    neofetch
+    tree
+    unzip
+    htop
+    lm_sensors # hardware sensors lile cpu temperature - use with: sensors-detect
+    # Development Programming Languages
+    python3
+    #clang
+    gcc
+    gnumake
+    cmake
+    go
+    rustup
+    zig
+    # java stuff
+    jdk8
+    maven # package manager
+    # Language Servers
+    zls
+    gopls
+    vscode-langservers-extracted
+    vimPlugins.nvim-jdtls # java
+    jdt-language-server # java
+    # IDEs / Editors
+    vscode
+    jetbrains.clion
+    jetbrains.goland
+    jetbrains.idea-ultimate
+    jetbrains.rider
+    jetbrains.pycharm-professional   #jetbrains.pycharm-community
+    eclipses.eclipse-java
+    # gnome
+    gnome.gnome-tweaks
+    gnome.gnome-keyring
+    gnome-extension-manager
+    # drivers
+    ntfs3g # linux ntfs driver
+    # Office
+    onlyoffice-bin
+    #Browsers
+    brave
+    chromium
+    # GUI Software
+    github-desktop
+    discord
+    thunderbird
+    obsidian
+    # Gaming
+    steam
+    protonup-qt
+    # Streaming and Editing
+    obs-studio
+    gimp
+    blender
+  ];
 
   # --- Program Configurations
   
