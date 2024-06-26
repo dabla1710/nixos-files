@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=dabla1710@gmail.com
+Enabled=true
+Parent=e985de5c9fdf68b0124ff5cb01ee839b67e3f8a8
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=b602fcbe7cbdf11b5089c956791959a4a2fdfa4e
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=dabla1710@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

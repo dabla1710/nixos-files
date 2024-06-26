@@ -1,0 +1,54 @@
+2024-06-26T16:02:06.266Z - info: [ui] [AppStore] loading 0 repositories from store
+2024-06-26T16:02:06.299Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-06-26T16:02:06.300Z - info: [ui] launching: 3.2.5-linux1 (Linux 6.8.6)
+2024-06-26T16:02:06.300Z - info: [ui] execPath: '/nix/store/62mhhpxqbn4s9db3r2grqclcwzzgni76-github-desktop-3.2.5/opt/github-desktop'
+2024-06-26T16:02:06.317Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-06-26T16:02:06.333Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-06-26T16:02:06.573Z - info: [ui] Opt in reported.
+2024-06-26T16:02:07.550Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2024-06-26T16:02:07.551Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-06-26T16:02:07.554Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=29bc078a-0757-42d3-916b-f55417f12e05
+2024-06-26T16:02:07.554Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2024-06-26T16:02:08.350Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-06-26T16:02:12.049Z - info: [main] Received possible protocol arguments: 3
+2024-06-26T16:02:12.049Z - info: [main] Processing protocol url
+2024-06-26T16:02:12.049Z - info: [ui] [Dispatcher] requesting authenticated user
+2024-06-26T16:02:12.053Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-06-26T16:02:12.069Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2024-06-26T16:02:12.083Z - info: [main] Received possible protocol arguments: 2
+2024-06-26T16:02:12.084Z - info: [main] Processing protocol url
+2024-06-26T16:02:12.827Z - info: [ui] [SignInStore] account resolved
+2024-06-26T16:02:12.827Z - info: [ui] [AppStore] adding account dabla1710 (dabla1710) to store
+2024-06-26T16:02:12.836Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2024-06-26T16:02:12.866Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-06-26T16:02:13.194Z - info: [ui] Subscribed 'dabla1710' to Alive channel
+2024-06-26T16:02:13.403Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2024-06-26T16:02:41.733Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/dabla1710/cpp.git - dabla1710 (has token)
+2024-06-26T16:02:43.275Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/dabla1710/cpp.git /home/dabs/development/cpp (took 1.541s)
+2024-06-26T16:02:43.285Z - info: [ui] [AppStore] adding repository at /home/dabs/development/cpp to store
+2024-06-26T16:02:55.981Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/dabla1710/go.git - dabla1710 (has token)
+2024-06-26T16:03:03.671Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/dabla1710/go.git /home/dabs/development/go (took 7.685s)
+2024-06-26T16:03:03.680Z - info: [ui] [AppStore] adding repository at /home/dabs/development/go to store
+2024-06-26T16:03:03.746Z - info: [ui] [BranchPruner] Last prune took place 20 seconds ago - skipping
+2024-06-26T16:03:16.240Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/dabla1710/java.git - dabla1710 (has token)
+2024-06-26T16:03:16.966Z - info: [ui] [AppStore] adding repository at /home/dabs/development/java to store
+2024-06-26T16:03:17.037Z - info: [ui] [BranchPruner] Last prune took place 13 seconds ago - skipping
+2024-06-26T16:03:17.340Z - info: [ui] [BranchPruner] No branches to prune.
+2024-06-26T16:03:20.121Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: java - dabla1710 (has token)
+2024-06-26T16:03:21.202Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 3 repositories took 1.4s of which 0.0s paused, total 1.4s
+2024-06-26T16:03:23.075Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/dabla1710/nixos-files.git - dabla1710 (has token)
+2024-06-26T16:04:42.684Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/dabla1710/nixos-files.git /home/dabs/development/nixos-files (took 79.604s)
+2024-06-26T16:04:42.694Z - info: [ui] [AppStore] adding repository at /home/dabs/development/nixos-files to store
+2024-06-26T16:04:42.766Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2024-06-26T16:08:21.530Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/dabla1710/pascal.git - dabla1710 (has token)
+2024-06-26T16:08:22.295Z - info: [ui] [AppStore] adding repository at /home/dabs/development/pascal to store
+2024-06-26T16:08:22.363Z - info: [ui] [BranchPruner] Last prune took place 4 minutes ago - skipping
+2024-06-26T16:08:22.608Z - info: [ui] [BranchPruner] No branches to prune.
+2024-06-26T16:08:28.302Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/dabla1710/rust.git - dabla1710 (has token)
+2024-06-26T16:08:38.552Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/dabla1710/rust.git /home/dabs/development/rust (took 10.245s)
+2024-06-26T16:08:38.559Z - info: [ui] [AppStore] adding repository at /home/dabs/development/rust to store
+2024-06-26T16:08:38.683Z - info: [ui] [BranchPruner] Last prune took place 16 seconds ago - skipping
+2024-06-26T16:08:45.699Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/dabla1710/zig.git - dabla1710 (has token)
+2024-06-26T16:09:30.791Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/dabla1710/zig.git /home/dabs/development/zig (took 45.087s)
+2024-06-26T16:09:30.802Z - info: [ui] [AppStore] adding repository at /home/dabs/development/zig to store
+2024-06-26T16:09:30.870Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping

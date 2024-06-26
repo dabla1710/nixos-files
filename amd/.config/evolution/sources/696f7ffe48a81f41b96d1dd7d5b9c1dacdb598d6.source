@@ -1,0 +1,29 @@
+[Data Source]
+DisplayName=daniel.blaich@outlook.com
+Enabled=true
+Parent=9b940465e8660e624fd8caab0750b4b0022a2d54
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=130ee3da693603e5f9a30620a130700ecd782fdd
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+Language=
+
+[Mail Identity]
+Address=daniel.blaich@outlook.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none

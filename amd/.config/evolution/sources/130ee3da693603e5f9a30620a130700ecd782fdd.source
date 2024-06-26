@@ -1,0 +1,27 @@
+[Data Source]
+DisplayName=daniel.blaich@outlook.com
+Enabled=true
+Parent=9b940465e8660e624fd8caab0750b4b0022a2d54
+
+[Authentication]
+Host=smtp-mail.outlook.com
+Method=XOAUTH2
+Port=587
+ProxyUid=system-proxy
+RememberPassword=true
+User=daniel.blaich@outlook.com
+CredentialName=
+IsExternal=false
+
+[Security]
+Method=starttls-on-standard-port
+
+[Mail Transport]
+BackendName=smtp
+
+[Smtp Backend]
+ReencodeData=false
+DsnRetFull=false
+DsnNotifySuccess=true
+DsnNotifyFailure=true
+DsnNotifyDelay=true
