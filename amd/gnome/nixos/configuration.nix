@@ -81,7 +81,7 @@
     alsa.support32Bit = true;
     pulse.enable = true;
     # If you want to use JACK applications, uncomment this
-    #jack.enable = true;
+    jack.enable = true;
 
     # use the example session manager (no others are packaged yet so this is enabled by default,
     # no need to redefine it in your config for now)
@@ -168,6 +168,9 @@
     # java stuff
     jdk8
     maven # package manager
+    # Additional Packets
+    # Raylib
+    raylib
     # Language Servers
     zls
     gopls
@@ -182,7 +185,10 @@
     jetbrains.rider
     jetbrains.pycharm-professional   #jetbrains.pycharm-community
     eclipses.eclipse-java
+    # Development packages
+    raylib
     # gnome
+    gnome.gnome-terminal
     gnome.gnome-tweaks
     gnome.gnome-keyring
     gnome-extension-manager
@@ -205,6 +211,11 @@
     obs-studio
     gimp
     blender
+    # audio
+    pavucontrol # doesnt do shit really
+    carla # not sold on this - too much
+    pulseeffects-legacy
+
   ];
 
   # --- Program Configurations
