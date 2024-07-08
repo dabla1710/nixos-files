@@ -187,6 +187,7 @@
     eclipses.eclipse-java
     # Development packages
     raylib
+    wayland-protocols
     # gnome
     gnome.gnome-terminal
     gnome.gnome-tweaks
@@ -212,10 +213,7 @@
     gimp
     blender
     # audio
-    pavucontrol # doesnt do shit really
-    carla # not sold on this - too much
-    pulseeffects-legacy
-
+    jamesdsp
   ];
 
   # --- Program Configurations
